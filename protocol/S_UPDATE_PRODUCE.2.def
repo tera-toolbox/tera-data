@@ -1,0 +1,5 @@
+# majorPatchVersion < 77
+
+bool unk
+uint32 progress
+bool done

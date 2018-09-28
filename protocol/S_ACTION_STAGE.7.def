@@ -1,0 +1,20 @@
+﻿# MajorPatchVersion >= 74
+
+uint64  gameId
+vec3    loc
+angle   w
+int32   templateId
+skillid skill
+int32   stage
+float   speed
+uint32  id
+float   effectScale # Only applied if corresponding bChangeAbleScaleByRange == true in SkillEffectData
+bool    moving # Only applied if OverrideMovingAnimId > 0 in SkillData
+vec3    dest # Used for Brawler: Divine Wrath
+uint64  target
+
+array   movement
+- int32 duration
+- float speed
+- float unk # always 1?
+- float distance

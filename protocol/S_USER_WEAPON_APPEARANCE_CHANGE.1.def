@@ -1,0 +1,7 @@
+uint64 gameId
+uint32 dbid # weapon
+int32 unk1 # 0?
+int32 enchant # 0-15
+int32 weaponSkin # dbid of weapon skin
+bool unk2 # true?
+int32 unk3 # 0 or 329 = in-combat animation?

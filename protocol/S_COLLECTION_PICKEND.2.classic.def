@@ -1,0 +1,3 @@
+uint64 user
+uint64 collection
+int32  type # 0 = Interrupted, 1 = Cancelled, 2 = Failure, 3 = Success

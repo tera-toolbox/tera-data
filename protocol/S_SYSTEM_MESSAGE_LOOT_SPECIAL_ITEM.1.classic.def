@@ -1,0 +1,3 @@
+offset sysmsg
+uint64 uniqueId
+string sysmsg

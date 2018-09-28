@@ -1,0 +1,10 @@
+{
+  "name": "tera-data",
+  "author": "meishu / Pinkie Pie / Caali",
+  "version": "1.0.0",
+  "description": "Platform agnostic repository for information about TERA packets and system messages.",
+  "main": "package.json",
+  "repository": "hackerman-caali/tera-data",
+  "homepage": "https://github.com/hackerman-caali/tera-data#readme",
+  "bugs": "https://github.com/hackerman-caali/tera-data/issues"
+}

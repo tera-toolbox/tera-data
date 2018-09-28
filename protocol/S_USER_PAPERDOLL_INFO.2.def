@@ -1,0 +1,132 @@
+count  items
+offset items
+count  instances
+offset instances
+count  arr2
+offset arr2
+offset name
+offset status
+offset guild
+offset guildRank
+
+int32  model
+uint64 cID
+uint32 serverId
+uint32 playerId
+int32  unk0
+int16  level
+int16  gatherEnergy
+int16  unk1 # ?
+int16  gatherPlants
+int16  gatherMining
+int16  unk2 # status / alive?
+int64  expTotal
+int64  expShown
+int64  expToNext
+int32  unk3
+int32  unk31
+int32  unk32
+int32  unk33
+int32  weapon
+int32  chest
+int32  gloves
+int32  boots
+int32  innerwear
+int32  head # ?
+int32  face # ?
+int32  basePower
+int32  baseEndurance
+int32  baseImpactFactor
+int32  baseBalanceFactor
+int16  baseMovementSpeed
+int16  baseAttackSpeed
+float  baseCritRate
+float  baseCritResist
+float  baseCritPower
+int32  baseAttack
+int32  baseAttack2
+int32  baseDefense
+int32  baseImpact
+int32  baseBalance
+float  baseResistWeakening
+float  baseResistPeriodic
+float  baseResistStun
+int32  bonusPower
+int32  bonusEndurance
+int32  bonusImpactFactor
+int32  bonusBalanceFactor
+int16  bonusMovementSpeed
+int16  bonusAttackSpeed
+float  bonusCritRate
+float  bonusCritResist
+float  bonusCritPower
+int32  bonusAttack
+int32  bonusAttack2
+int32  bonusDefense
+int32  bonusImpact
+int32  bonusBalance
+float  bonusResistWeakening
+float  bonusResistPeriodic
+float  bonusResistStun
+int16  vitality # ?
+int32  curStamina
+int32  maxStamina
+int32  itemLevel
+int32  itemLevelInventory
+int32  unk4
+int32  hairAdornment
+int32  mask # ?
+int32  back # ?
+int32  weaponSkin # ?
+int32  costume # ?
+int32  unk5
+int32  unk6
+int32  unk7
+string name
+string status
+string guild
+string guildRank
+
+array  items
+- int32  id
+- uint64 uid
+- uint64 owner
+- int32  slot
+- int32  unk1
+- int32  unk2
+- int32  enchantment
+- int32  unk3
+- byte   unk4
+- int32  crystal1
+- int32  crystal2
+- int32  crystal3
+- int32  crystal4
+- int32  unk5
+- int32  bonus1
+- int32  bonus2
+- int32  bonus3
+- int32  bonus4
+- int32  bonus5
+- int32  bonus6
+- int32  bonus7
+- int32  bonus8
+- int32  bonus9
+- int32  bonus10
+- int32  bonus11
+- int32  bonus12
+- int32  bonus13
+- int32  bonus14
+- int32  bonus15
+- byte   unk6
+- int32  unk7
+- int32  unk8
+- int32  unk9
+- int32  unk10
+- int32  unk11
+- byte   unk12
+
+array  instances
+- int32 id
+- int32 unknown
+- int32 cooldown
+- int16 entries

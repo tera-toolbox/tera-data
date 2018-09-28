@@ -1,0 +1,12 @@
+float x
+float y
+float z
+uint32 unk1
+
+array destinations
+- uint32 id
+- float x
+- float y
+- float z
+- uint64 price
+- bool available
