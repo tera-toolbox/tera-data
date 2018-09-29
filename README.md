@@ -8,7 +8,7 @@ TERA. It is intended to be platform agnostic, with details on the file formats
 explained below.
 
 The currently known open source parsers are:
-- JavaScript (Node): [tera-data-parser](https://github.com/meishuu/tera-data-parser-js)
+- JavaScript (Node): [tera-data-parser](https://github.com/caali-hackerman/tera-data-parser-js)
 
 ## Mappings
 
@@ -52,6 +52,7 @@ The following simple field types are supported:
   optionally warns for any value above 1).
 - `byte`
 - `float`: A four-byte floating-point number.
+- `double`
 - `int16`
 - `int32`
 - `int64`
@@ -59,11 +60,24 @@ The following simple field types are supported:
 - `uint32`
 - `uint64`
 
+The following complex field types are supported:
+- `vec3` - 3D vector used for location. See [tera-vec3](https://github.com/caali-hackerman/tera-vec3).
+- `vec3fa` - Rotation Vec3 used for accessory transforms.
+- `skillid` - An abstract representation of packed skill IDs. Contains the following properties and methods:
+- - `npc` (Boolean) Indicates an NPC skill
+- - `type` (Number) 1 = Action, 2 = Reaction (CC, pull, etc.)
+- - `huntingZoneId` (Number) secondary key for type 1 NPC skills
+- - `id` (Number) Skill ID
+- - `reserved` (Number) Reserved bits, typically unused
+- - `equals(skillId)`
+- - `clone()`
+- - `toString()`
+
 There is one type that is not directly represented by the raw data and instead
 serves organizational purposes:
 - `object`: Any fields under this one should be collected into some sort of
-  encapsulating object. For instance, x/y/z vectors can be under an `object`
-  called "location".
+  encapsulating object. For instance, location, angle, and character id for a
+  targeted enemy can be under an `object` called "target".
 
 There are also a few variable-length fields:
 - `array`: Almost like `object`, except there can be 0 or more that should be
