@@ -1,5 +1,0 @@
-# MajorPatchVersion == 19
-
-uint64     target
-int32      unk
-skillid32  skill

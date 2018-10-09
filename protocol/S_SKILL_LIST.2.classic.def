@@ -1,5 +1,0 @@
-# majorPatchVersion == 19
-
-array skills
-- uint32 id
-- bool active

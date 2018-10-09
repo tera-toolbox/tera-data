@@ -1,4 +1,0 @@
-# MajorPatchVersion == 19
-
-skillid32 skill
-int32     cooldown
