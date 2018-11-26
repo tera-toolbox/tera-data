@@ -1,6 +1,6 @@
 offset quest
              
 int type      # 0 = announce, 1 = spawn, 3 = death
-int templateId
 short zoneId
+int templateId
 string quest    # "@GuildQuest:questId" for announce, "\0" for spawn and death
