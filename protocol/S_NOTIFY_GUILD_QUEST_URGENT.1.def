@@ -1,0 +1,6 @@
+offset quest
+             
+short type      # 0 = announce, 1 = spawn, 3 = death
+int templateId
+int zoneId
+string quest    # "@GuildQuest:questId" for announce, "\0" for spawn and death
