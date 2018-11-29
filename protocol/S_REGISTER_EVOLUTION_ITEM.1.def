@@ -1,4 +1,4 @@
-# majorPatchVersion < 79
+# majorPatchVersion >= 79
 
 uint32 contractId
 uint64 sourceUniqueId
