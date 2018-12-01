@@ -5,6 +5,6 @@
   "description": "Platform agnostic repository for information about TERA packets and system messages.",
   "main": "package.json",
   "repository": "hackerman-caali/tera-data",
-  "homepage": "https://github.com/hackerman-caali/tera-data#readme",
-  "bugs": "https://github.com/hackerman-caali/tera-data/issues"
+  "homepage": "https://github.com/caali-hackerman/tera-data#readme",
+  "bugs": "https://github.com/caali-hackerman/tera-data/issues"
 }
