@@ -1,3 +1,5 @@
+# majorPatchVersion < 77
+
 uint16 baseEnergy
 uint16 baseHerb
 uint16 baseBug

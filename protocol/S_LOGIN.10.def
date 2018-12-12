@@ -1,4 +1,4 @@
-# MajorPatchVersion >= 67
+# majorPatchVersion >= 67 && majorPatchVersion < 77
 
 uint32 templateId # For players the convention is 1XXYY (X = 1 + race*2 + gender, Y = 1 + class). See C_CREATE_USER
 uint64 gameId # globally-unique identifier for this session
