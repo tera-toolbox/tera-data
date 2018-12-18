@@ -12,7 +12,7 @@ int16  actionMode
 int16  status
 bool   visible
 bool   alive
-uint64 appearance
+customize appearance
 uint32 weapon
 uint32 body
 uint32 hand
