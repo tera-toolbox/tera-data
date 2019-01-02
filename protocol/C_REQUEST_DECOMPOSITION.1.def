@@ -1,6 +1,0 @@
-# majorPatchVersion < 77
-
-uint32 contract
-uint64 id
-uint32 dbid
-uint32 amount
