@@ -1,4 +1,6 @@
-﻿uint64 creature
+﻿# majorPatchVersion < 79
+
+uint64 creature
 byte   enraged
 int32  unk1 # 4, 5
 uint64 target
