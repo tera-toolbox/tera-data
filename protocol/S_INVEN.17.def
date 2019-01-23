@@ -1,4 +1,4 @@
-# majorPatchVersion < 79
+# majorPatchVersion >= 79
 
 uint64 gameId
 int64  gold
@@ -51,6 +51,7 @@ array items
 - bool   hasEtching
 - bool   pcbang
 - int64  xp
+- bool   damaged # Damaged due to enchant/upgrade failure, needs to be repaired.
 
 - array  passivitySets
 - - uint32 index
