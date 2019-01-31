@@ -1,0 +1,16 @@
+﻿# majorPatchVersion == 27
+
+uint64  gameId
+vec3    loc
+angle   w
+int32   templateId
+skillid skill
+int32   stage
+float   speed
+uint32  id
+
+array   movement
+- int32 duration
+- float speed
+- float unk # always 1?
+- float distance

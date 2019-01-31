@@ -1,0 +1,7 @@
+﻿# majorPatchVersion == 27
+
+uint64 gameId
+bool   enraged
+int32  hpLevel                  # see S_SPAWN_NPC
+uint64 target
+int32  status                   # see S_SPAWN_NPC
