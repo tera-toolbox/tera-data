@@ -1,0 +1,4 @@
+# majorPatchVersion == 27
+
+uint64 id
+bool   unk1 # true = projectile expired?

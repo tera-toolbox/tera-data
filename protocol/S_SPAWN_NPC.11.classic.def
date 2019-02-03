@@ -7,7 +7,6 @@ angle  w
 int32  relation
 uint32 templateId
 uint16 huntingZoneId
-int32  shapeId
 int16  walkSpeed
 int16  runSpeed
 int16  status                   # 0: idle/normal, 1: alert, 2: combat, 3: evade/leash, 4: dead

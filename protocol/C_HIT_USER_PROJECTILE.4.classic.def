@@ -1,0 +1,4 @@
+uint64 id
+
+array  targets
+- uint64 gameId
