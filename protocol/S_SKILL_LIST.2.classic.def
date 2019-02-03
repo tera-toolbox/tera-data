@@ -3,3 +3,4 @@
 array skills
 - uint32 id
 - bool active
+- bool union
