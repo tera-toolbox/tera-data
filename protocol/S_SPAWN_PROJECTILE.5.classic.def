@@ -1,0 +1,11 @@
+﻿# MajorPatchVersion == 27
+
+uint64    id
+uint32    unk1
+skillid32 skill
+vec3      loc
+vec3      dest
+bool      moving
+float     speed
+uint64    gameId
+int32     templateId
