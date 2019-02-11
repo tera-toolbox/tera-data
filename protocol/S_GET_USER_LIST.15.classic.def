@@ -1,0 +1,93 @@
+# MajorPatchVersion == 27
+
+bool   veteran
+int32  bonusBufSec
+int32  unk1 # TODO: this might as well be before bonusBufSec
+int32  maxCharacters
+bool   first
+bool   more
+int32  leftDelTimeAccountOver
+int32  deletionSectionClassifyLevel
+int32  deleteCharacterExpireHour1
+int32  deleteCharacterExpireHour2
+
+array  characters
+- uint32    id
+- int32     gender # 1 = female, 2 = male
+- int32     race   # 0..5
+- int32     class  # 0..12
+- int32     level
+- int32     hp
+- int32     mp
+- int32     worldId
+- int32     guardId
+- int32     sectionId
+- int64     lastLogoutTime
+- bool      isDeleting
+- int64     deleteTime
+- int32     deleteRemainSec
+- int32     weapon
+- int32     earring1
+- int32     earring2
+- int32     body
+- int32     hand
+- int32     feet
+- int32     unkItem7
+- int32     ring1
+- int32     ring2
+- int32     underwear
+- int32     head
+- int32     face
+- customize appearance
+- bool      isSecondCharacter
+- int32     adminLevel   # >0 = [GM] tag added to name
+- bool      isBanned
+- int64     banEndTime
+- int32     banRemainSec # -1 = Permanent
+- int32     canUseStatus # Needs name change, etc.
+
+# TODO: unsure starting from here
+- int32     weaponModel
+- int32     unkModel2
+- int32     unkModel3
+- uint32    bodyModel
+- uint32    handModel
+- uint32    feetModel
+- int32     unkModel7
+- int32     unkModel8
+- int32     unkModel9
+- int32     unkModel10
+- uint32    unkDye1
+- uint32    unkDye2
+- uint32    weaponDye
+- uint32    bodyDye
+- uint32    handDye
+- uint32    feetDye
+- uint32    unkDye7
+- uint32    unkDye8
+- uint32    unkDye9
+- uint32    underwearDye
+- int32     styleHead
+- int32     styleFace
+- int32     styleBack
+- int32     styleWeapon
+- int32     styleBody
+- uint32    styleBodyDye
+- uint32    weaponEnchant
+# TODO: up until here
+
+- int32     restBonusXp
+- int32     maxRestBonusXp
+- bool      showFace
+- bool      isNewCharacter
+- int32     tutorialState
+- bool      showStyle
+- int32     appearance2
+
+- array     customStrings
+- - int32   id
+- - string  string
+- string    name
+- bytes     details
+- bytes     shape
+- string    guildName
