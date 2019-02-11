@@ -7,8 +7,3 @@ int32 unk4
 array achievements
 - int32 id
 - int64 completed
-
-array history
-- int32 season
-- int32 laurel
-- int64 startDate
