@@ -8,9 +8,10 @@ skillid32 skill
 int32     stage
 float     speed
 uint32    id
+float     effectScale # Only applied if corresponding bChangeAbleScaleByRange == true in SkillEffectData
 
-array   animSeq
-- int32 duration
-- float xyRate
-- float zRate
-- float distance
+array     animSeq
+- int32   duration
+- float   xyRate
+- float   zRate
+- float   distance
