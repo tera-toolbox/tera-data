@@ -90,4 +90,3 @@ array  characters
 - string    name
 - bytes     details
 - bytes     shape
-- string    guildName
