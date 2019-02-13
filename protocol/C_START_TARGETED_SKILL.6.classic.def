@@ -1,0 +1,9 @@
+# MajorPatchVersion == 27
+
+skillid32 skill
+vec3      loc
+angle     w
+vec3      dest
+
+array     targets
+- uint64  id
