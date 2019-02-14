@@ -1,0 +1,12 @@
+# MajorPatchVersion == 27
+
+skillid32 skill
+vec3      loc
+angle     w
+
+array     targets
+- uint32  arrowId
+- uint64  gameId
+
+array     endpoints
+- vec3    loc
