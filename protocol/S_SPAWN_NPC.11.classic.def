@@ -32,9 +32,9 @@ array  seats
 - uint64 passengerId
 - angle  pitch
 - angle  yaw
-- int64  passengerMaxHp
+- int32  passengerMaxHp
 - int32  passengerMaxMp
-- int64  passengerHp
+- int32  passengerHp
 - int32  passengerMp
 
 string npcName                  # Internal name/description for debugging purposes
