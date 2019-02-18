@@ -1,0 +1,7 @@
+# majorPatchVersion == 27
+
+uint64    source
+uint64    target
+skillid32 skill
+vec3      loc
+bool      success
