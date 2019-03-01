@@ -1,7 +1,0 @@
-﻿# majorPatchVersion < 79
-
-uint64 creature
-byte   enraged
-int32  unk1 # 4, 5
-uint64 target
-int32  unk2 # flags? 0, 1, 2, 4
