@@ -2,7 +2,7 @@
 
 int64  hp
 int32  mp
-int32  drain
+int64  drain
 int64  maxHp
 int32  maxMp
 int32  power
