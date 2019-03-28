@@ -1,6 +1,0 @@
-# MajorPatchVersion == 27
-
-skillid32 skill
-bool      press
-vec3      loc
-angle     w

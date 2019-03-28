@@ -1,9 +1,0 @@
-# majorPatchVersion == 27
-
-uint32  curHp
-uint32  maxHp
-int32  diff
-uint32  type
-uint64 target
-uint64 source
-byte   crit

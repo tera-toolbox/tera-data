@@ -1,4 +1,0 @@
-# MajorPatchVersion == 27
-uint64    target
-skillid32 skill
-bool      success
