@@ -1,4 +1,4 @@
-# majorPatchVersion < 80
+# majorPatchVersion >= 80
 
 uint64 gameId
 vec3   loc
@@ -13,3 +13,5 @@ bool   debug
 
 array  owners
 - uint32 playerId
+
+string ownerName
