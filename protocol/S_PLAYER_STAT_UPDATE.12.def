@@ -1,4 +1,4 @@
-# majorPatchVersion >= 75 && majorPatchVersion < 80
+# majorPatchVersion >= 80
 
 int64  hp
 int32  mp
@@ -66,3 +66,5 @@ float  flightSpeedMul
 uint32 fireEdge # sorc fire "edge" (becomes 4 for some reason)
 uint32 iceEdge # sorc ice "edge" (becomes 4 for some reason)
 uint32 lightningEdge # sorc lightning "edge" (becomes 4 for some reason)
+uint32 adventureCoins
+uint32 adventureCoinsMax

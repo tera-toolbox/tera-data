@@ -1,4 +1,4 @@
-# majorPatchVersion >= 75
+# majorPatchVersion >= 75 && majorPatchVersion < 80
 
 int64  hp
 int64  mp

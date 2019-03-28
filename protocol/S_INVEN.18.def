@@ -19,7 +19,7 @@ array items
 - uint32 slot # 0-39 are reserved for equipment:
               # 1 = Weapon, 3 = Body, 4 = Hands, 5 = Feet, 6 = Left Earring, 7 = Right Earring, 8 = Left Ring, 9 = Right Ring,
               # 10 = Necklace, 11 = Underwear, 12 = Head, 13 = Face, 14 = Costume Head, 15 = Costume Face, 16 = Costume Weapon,
-              # 17 = Costume Body, 18 = Costume Back, 19 = Belt, 20 = Brooch, 21 = Footprints
+              # 17 = Costume Body, 18 = Costume Back, 19 = Belt, 20 = Brooch, 21 = Footprints, 22 = Halidom, 23 = Relic
 - int32  storageType # Not read by the client, always 0 for inventory
 - int32  amount
 - int32  enchant
