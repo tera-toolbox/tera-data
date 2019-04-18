@@ -1,4 +1,4 @@
-# majorPatchVersion >= 77 && majorPatchVersion < 81
+# majorPatchVersion >= 81
 
 int32     templateId  # For players the convention is 1XXYY (X = 1 + race*2 + gender, Y = 1 + class). See C_CREATE_USER
 uint64    gameId      # globally-unique identifier for this session
@@ -70,6 +70,8 @@ int64     titleCount
 int32     appearance2 # unknown, but client ignores shape if this is invalid
 float     scale
 int32     guildLogoId
+array     unk
+# TODO
 string    name
 bytes     details
 bytes     shape
