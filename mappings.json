@@ -2,8 +2,8 @@
     "EU": {"version": 344895, "major_patch": 80, "minor_patch": 5, "protocol_hash": "87acefc3d6db7e4d1c7aaf2334fab0d5465966d121e89f70f85808f3c6e59ace", "sysmsg_hash": "2791145e2e368c3b4ee6768636d18f033bc8790e99222239fa0cabbfbfdfe001"},
     "NA": {"version": 344895, "major_patch": 80, "minor_patch": 5, "protocol_hash": "87acefc3d6db7e4d1c7aaf2334fab0d5465966d121e89f70f85808f3c6e59ace", "sysmsg_hash": "2791145e2e368c3b4ee6768636d18f033bc8790e99222239fa0cabbfbfdfe001"},
     "RU": {"version": 344895, "major_patch": 80, "minor_patch": 5, "protocol_hash": "87acefc3d6db7e4d1c7aaf2334fab0d5465966d121e89f70f85808f3c6e59ace", "sysmsg_hash": "2791145e2e368c3b4ee6768636d18f033bc8790e99222239fa0cabbfbfdfe001"},
-    "JP": {"version": 344895, "major_patch": 80, "minor_patch": 5, "protocol_hash": "87acefc3d6db7e4d1c7aaf2334fab0d5465966d121e89f70f85808f3c6e59ace", "sysmsg_hash": "2791145e2e368c3b4ee6768636d18f033bc8790e99222239fa0cabbfbfdfe001"},
-    "TW": {"version": 347376, "major_patch": 81, "minor_patch": 3, "protocol_hash": "94ada92de6ce6cc17083f0fcbf6c813d8b2a1b5ba98395887c2404558f3e779b", "sysmsg_hash": "28f0593262572d21927d52e4a7d2e3b615e952217c76181707819851c92bad44"},
+    "JP": {"version": 347374, "major_patch": 81, "minor_patch": 3, "protocol_hash": "d617e2dfde67ce212a0bb43b555330a2229935e4eb21f393f6f9fb82a02a1648", "sysmsg_hash": "28f0593262572d21927d52e4a7d2e3b615e952217c76181707819851c92bad44"},
+    "TW": {"version": 347376, "major_patch": 81, "minor_patch": 3, "protocol_hash": "e0fc5cb83e7511f915d2ebea3dfa0b05396f5f4fbc0f873d32e7f9248f8e3019", "sysmsg_hash": "28f0593262572d21927d52e4a7d2e3b615e952217c76181707819851c92bad44"},
     "TH": {"version": 345891, "major_patch": 80, "minor_patch": 4, "protocol_hash": "bbfe34a1c66af48dfde52077e942b48dbb292f60cc408b3000990790e2402c04", "sysmsg_hash": "2791145e2e368c3b4ee6768636d18f033bc8790e99222239fa0cabbfbfdfe001"},
     "KR": {"version": 344014, "major_patch": 81, "minor_patch": 2, "protocol_hash": "bbf44705a2d33957ba4b4d1a372a7fe2bd6e2b4a6194e4182ca53972c79acba4", "sysmsg_hash": "8b784d9bd94b3754ce70af4376e912112662ffba61311c2dcfc160c267ed2491"}
 }
