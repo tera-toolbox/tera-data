@@ -5,7 +5,7 @@ TERA. It is intended to be platform agnostic, with details on the file formats
 explained below.
 
 The currently known open source parsers are:
-- JavaScript (Node): [tera-data-parser](https://github.com/caali-hackerman/tera-data-parser-js)
+- JavaScript (Node): [tera-data-parser](https://github.com/tera-toolbox/tera-data-parser-js)
 
 ## Mappings
 
@@ -58,7 +58,7 @@ The following simple field types are supported:
 - `uint64`
 
 The following complex field types are supported:
-- `vec3` - 3D vector used for location. See [tera-vec3](https://github.com/caali-hackerman/tera-vec3).
+- `vec3` - 3D vector used for location. See [tera-vec3](https://github.com/tera-toolbox/tera-vec3).
 - `vec3fa` - Rotation Vec3 used for accessory transforms.
 - `skillid` - An abstract representation of packed skill IDs. Contains the following properties and methods:
 - - `npc` (Boolean) Indicates an NPC skill
