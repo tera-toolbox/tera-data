@@ -1,0 +1,22 @@
+int32 unk1
+int32 unk2
+int32 uniqueId
+int32 unk3
+vec3 location
+int16 heading
+int32 isPartner # to be verified
+int32 servantId 
+int32 npcTemplateId # from ServantData
+int32 unk4
+uint64 owner
+int16 unk5
+int32 energy
+int32 unk6
+int32 level
+int32 fellowship
+string name
+array skills
+- int32 id
+array abilities
+- int32 id
+- byte unk
