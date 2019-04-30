@@ -1,0 +1,22 @@
+int32 maxServants
+
+array servants
+- int32 uniqueId # to be verified
+- int32 unk1
+- int32 isPartner # to be verified # 0 for pets, 1 for partners
+- int32 servantId # from ServantData
+- int32 level # UI shows level for pets, grade for partners
+- int32 exp
+- int32 energy
+- int32 fellowship
+- int32 expireDate
+- int32 unk2
+- int32 index # order in the list
+- int32 unk3
+- string name
+- array skills
+- - int32 id # from ServantSkill/ConditionalSkillData
+- - byte unk # 0/1
+- array abilities
+- - int32 id # from ServantSkill/AbilityInfo/AbilityData
+- - byte unk # 0/1
