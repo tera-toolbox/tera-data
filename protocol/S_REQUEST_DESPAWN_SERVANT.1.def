@@ -1,0 +1,6 @@
+# doesn't seem to be triggered when servant gets out of view (like npc/users do), but only when manually dismissing it
+
+int16 unk1 # always 0xC3CB
+uint64 gameId # matches gameId in S_REQUEST_SPAWN_SERVANT
+int32 unk2 # 0
+int16 unk3 # 0
