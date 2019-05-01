@@ -70,8 +70,12 @@ int64     titleCount
 int32     appearance2 # unknown, but client ignores shape if this is invalid
 float     scale
 int32     guildLogoId
-array     unk
-# TODO
+array     servants # see S_REQUEST_SERVANT_INFO_LIST
+- uint64  dbid
+- uint32  id
+- uint32  type
+- uint32  energy
+- int32   slot
 string    name
 bytes     details
 bytes     shape
