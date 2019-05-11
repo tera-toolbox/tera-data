@@ -1,5 +1,8 @@
+# majorPatchVersion >= 61
+
 uint64 gameId
 vec3   loc
 bool   alive
+bool   inShuttle
 bool   resItem
 bool   resPassive
