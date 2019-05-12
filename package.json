@@ -1,6 +1,10 @@
 {
   "name": "tera-data",
-  "author": "meishu / Pinkie Pie / Caali",
+  "author": "Caali",
+  "contributors": [
+    "Pinkie Pie",
+    "meishu"
+  ],
   "version": "1.0.0",
   "description": "Platform agnostic repository for information about TERA network packets.",
   "main": "package.json",
