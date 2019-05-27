@@ -1,3 +1,5 @@
+# majorPatchVersion < 82
+
 int32 set
 array inventory
 - int32 slot

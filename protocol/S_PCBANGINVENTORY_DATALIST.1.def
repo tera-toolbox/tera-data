@@ -1,5 +1,4 @@
-count inventory
-offset inventory
+# majorPatchVersion < 82
 
 int32 size
 

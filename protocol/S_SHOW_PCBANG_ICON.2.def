@@ -1,2 +1,4 @@
+# majorPatchVersion < 82
+
 uint64 gameId
 bool   pcbang
