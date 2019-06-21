@@ -18,5 +18,5 @@ array listings
 - int32 unk2
 - byte unk3
 - bool awakened
-- in32 unk4
+- int32 unk4
 - string name
