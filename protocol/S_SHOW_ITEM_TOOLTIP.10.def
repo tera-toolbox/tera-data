@@ -74,6 +74,8 @@ array  crystals
 - int32 dbid
 
 array[interleaved] passivitySets
+- count  passivities
+- offset passivities
 - uint32 index
 - int32  masterworkBonus
 - int32  itemLevel

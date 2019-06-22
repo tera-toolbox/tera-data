@@ -1,5 +1,8 @@
 # majorPatchVersion >= 80
 
+count items
+offset items
+
 uint64 gameId
 int64  gold
 bool   open
@@ -62,6 +65,8 @@ array items
 - string customString
 
 - array  passivitySets
+- - count  passivities
+- - offset passivities
 - - uint32 index
 - - int32  masterworkBonus
 - - int32  itemLevel

@@ -73,13 +73,14 @@ string soulboundName
 array<int32> crystals
 
 array[interleaved] passivitySets
+- count  passivities
+- offset passivities
 - uint32 index
 - int32  masterworkBonus
 - int32  itemLevel
 - int32  minItemLevel
 - int32  maxItemLevel
-- array  passivities
-- - int32 dbid
+- array<int32> passivities
 
 # As of RK-9 patch this no longer displays in the UI (probably a bug) and some variables were removed
 # Note: The magic number -1000 hides individual stats
