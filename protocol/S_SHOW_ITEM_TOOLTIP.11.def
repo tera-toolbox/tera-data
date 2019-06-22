@@ -70,8 +70,7 @@ bool   damaged
 
 string soulboundName
 
-array  crystals
-- int32 dbid
+array<int32> crystals
 
 array[interleaved] passivitySets
 - uint32 index
@@ -126,5 +125,4 @@ array[interleaved] statComparison
 - int32  unk23
 - int32  unk24
 
-array mergedPassivities
-- int32 id 
+array<int32> mergedPassivities

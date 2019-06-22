@@ -67,8 +67,6 @@ array items
 - - int32  itemLevel
 - - int32  minItemLevel
 - - int32  maxItemLevel
-- - array  passivities
-- - - int32 id
+- - array<int32> passivities
 
-- array  mergedPassivities
-- - int32 id
+- array<int32> mergedPassivities
