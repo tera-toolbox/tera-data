@@ -70,8 +70,7 @@ bool   damaged
 
 string soulboundName
 
-array  crystals
-- int32 dbid
+array<int32> crystals
 
 array[interleaved] passivitySets
 - count  passivities
@@ -81,8 +80,7 @@ array[interleaved] passivitySets
 - int32  itemLevel
 - int32  minItemLevel
 - int32  maxItemLevel
-- array  passivities
-- - int32 dbid
+- array<int32> passivities
 
 # As of RK-9 patch this no longer displays in the UI (probably a bug) and some variables were removed
 # Note: The magic number -1000 hides individual stats
@@ -128,5 +126,4 @@ array[interleaved] statComparison
 - int32  unk23
 - int32  unk24
 
-array mergedPassivities
-- int32 id 
+array<int32> mergedPassivities
