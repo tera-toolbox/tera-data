@@ -20,9 +20,13 @@ def convert_to_unix_line_endings_and_hash(dir, files):
             
     return hashes
 
+with open('deprecated.json') as fh:
+    deprecated = json.load(fh)
+
 manifest = {
     'maps': convert_to_unix_line_endings_and_hash(MAP_DIR, list_files(MAP_DIR)),
     'protocol': convert_to_unix_line_endings_and_hash(PROTOCOL_DIR, list_files(PROTOCOL_DIR)),
+    'deprecated': deprecated,
 }
 
 with open('manifest.json', 'w') as fh:
