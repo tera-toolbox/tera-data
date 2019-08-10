@@ -1,7 +1,17 @@
 ﻿# majorPatchVersion >= 81
 
+count      servants
+offset     servants
+
 uint32     slots
+
 array      servants
+- count    giftedSkills
+- offset   giftedSkills
+- count    abilities
+- offset   abilities
+- offset   name
+
 - uint64   dbid
 - uint32   type # 0: pet, 1: partner
 - uint32   id
