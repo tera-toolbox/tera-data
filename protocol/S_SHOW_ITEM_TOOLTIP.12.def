@@ -1,4 +1,4 @@
-# majorPatchVersion >= 80 && majorPatchVersion < 85
+# majorPatchVersion >= 85
 
 count crystals
 offset crystals
@@ -15,8 +15,9 @@ uint64 dbid
 uint32 id
 uint64 dbid2 # always same as dbid?
 uint64 ownerId
+int32  container # 0: inventory/pocket, 1: bank, 2: mail, 3: guild bank, 4: homunculus shop, 5: homunculus shop buy, 6: trade broker sale, 7: group duel betting pool, 9: pet bank, 12: wardrobe, 14: equipment
+int32  pocket
 uint32 slot
-uint32 storageType # see S_INVEN
 int32  amountTotal
 int32  amount
 int32  enchant
@@ -67,11 +68,9 @@ int32  liberationStatus           # See S_INVEN
 int32  boundToItem
 bool   pcbang
 bool   damaged
-
 string soulboundName
 
-array  crystals
-- int32 dbid
+array<int32> crystals
 
 array[interleaved] passivitySets
 - count  passivities
@@ -81,8 +80,7 @@ array[interleaved] passivitySets
 - int32  itemLevel
 - int32  minItemLevel
 - int32  maxItemLevel
-- array  passivities
-- - int32 dbid
+- array<int32> passivities
 
 # As of RK-9 patch this no longer displays in the UI (probably a bug) and some variables were removed
 # Note: The magic number -1000 hides individual stats
@@ -128,5 +126,4 @@ array[interleaved] statComparison
 - int32  unk23
 - int32  unk24
 
-array mergedPassivities
-- int32 id 
+array<int32> mergedPassivities

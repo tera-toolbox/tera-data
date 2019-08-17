@@ -1,4 +1,4 @@
-# majorPatchVersion >= 80
+# majorPatchVersion >= 80 && majorPatchVersion < 85
 
 uint32 templateId
 uint64 gameId

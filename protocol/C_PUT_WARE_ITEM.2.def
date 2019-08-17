@@ -1,3 +1,5 @@
+# majorPatchVersion < 85
+
 int64 gameId
 int32 type # 1 = bank, 12 = costume
 int32 page

@@ -1,4 +1,4 @@
-# majorPatchVersion >= 80
+# majorPatchVersion >= 80 && majorPatchVersion < 85
 
 count items
 offset items

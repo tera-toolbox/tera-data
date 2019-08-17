@@ -1,3 +1,5 @@
+# majorPatchVersion < 85
+
 int32  step # id? idk goes up by one everytime, 3 = last expansion
 int64  cost
 uint32 contract

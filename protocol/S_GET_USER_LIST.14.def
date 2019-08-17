@@ -1,4 +1,4 @@
-# MajorPatchVersion >= 67
+# majorPatchVersion >= 67 && majorPatchVersion < 85
 
 bool   veteran
 uint32 gameTimeRemaining # old P2P content, values below 60 don't display anything

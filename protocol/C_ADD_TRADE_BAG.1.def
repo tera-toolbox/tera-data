@@ -1,3 +1,5 @@
+# majorPatchVersion < 85
+
 uint64 source
 uint64 target
 uint32 contract

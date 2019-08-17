@@ -1,3 +1,5 @@
+# majorPatchVersion < 85
+
 int64 source
 int32 from
 int32 to

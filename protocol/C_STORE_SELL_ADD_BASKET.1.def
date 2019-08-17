@@ -1,3 +1,5 @@
+# majorPatchVersion < 85
+
 uint64 cid
 uint32 npc
 uint32 item

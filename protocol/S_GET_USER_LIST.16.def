@@ -1,4 +1,4 @@
-# majorPatchVersion >= 67 && majorPatchVersion < 85
+# majorPatchVersion >= 85
 
 bool   veteran
 int32  bonusBufSec
@@ -100,6 +100,7 @@ array  characters
 - int32     position # 1..characterCount (position in character selection screen)
 - int32     guildLogoId
 - int32     awakeningLevel
+- bool      hasBrokerSales
 
 - array     customStrings
 - - int32   id
