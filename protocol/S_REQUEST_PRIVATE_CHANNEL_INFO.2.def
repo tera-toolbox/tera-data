@@ -1,18 +1,16 @@
-count friends
-offset friends
-count members
-offset members
+ref friends
+ref members
 
 bool owner # can you edit the password and kick people?
 uint16 password
 
 array members
-- offset name
+- ref name
 - string name
 
 # appears to just be the list of online friends
 array friends
-- offset name
+- ref name
 - uint32 playerId
 - uint32 class # zero-based
 - uint32 level

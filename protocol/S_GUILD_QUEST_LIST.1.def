@@ -1,7 +1,6 @@
-count  quests
-offset quests
-offset guildName
-offset guildMaster
+ref quests
+ref guildName
+ref guildMaster
 
 int32  guildId
 int32  guildMasterId
@@ -19,15 +18,12 @@ string guildName
 string guildMaster
 
 array  quests
-- count  targets
-- offset targets
-- count  unk2
-- offset unk2
-- count  rewards
-- offset rewards
-- offset name
-- offset description
-- offset guildName
+- ref targets
+- ref unk2
+- ref rewards
+- ref name
+- ref description
+- ref guildName
 
 - int32  id
 - int32  unk1 # determines how to display name and description strings

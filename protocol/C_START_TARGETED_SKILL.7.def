@@ -5,6 +5,6 @@ vec3                     loc
 angle                    w
 vec3                     dest
 
-array   targets
+array                    targets
 - uint64                 gameId
 - uint32                 hitCylinderId

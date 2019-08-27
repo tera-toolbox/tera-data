@@ -1,6 +1,3 @@
-count  factions
-offset factions
-
 uint64 gameId
 array  factions
 - int32 region

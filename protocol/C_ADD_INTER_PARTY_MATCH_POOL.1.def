@@ -1,7 +1,5 @@
-count instances
-offset instances
-count players
-offset players
+ref instances
+ref players
 
 byte unk # 0
 byte preferredLeader

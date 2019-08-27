@@ -1,7 +1,6 @@
-count skills
-offset skills
-offset guildName
-offset guildMaster
+ref skills
+ref guildName
+ref guildMaster
 
 uint32 guildId
 uint32 gmId

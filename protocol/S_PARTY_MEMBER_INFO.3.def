@@ -1,9 +1,8 @@
-count  members
-offset members
+ref members
 uint16 unk1
 
 array  members
-- offset name
+- ref name
 - uint32 playerId
 - uint16  class # class -1
 - uint16  race

@@ -1,7 +1,7 @@
-offset query
-offset categories
-offset items
-offset query2
+ref query
+ref categories
+ref items
+ref query2
 
 uint32 lvlMin
 uint32 lvlMax

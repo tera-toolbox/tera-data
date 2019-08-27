@@ -1,3 +1,0 @@
-uint64 gameId
-uint64 appearance
-bytes details

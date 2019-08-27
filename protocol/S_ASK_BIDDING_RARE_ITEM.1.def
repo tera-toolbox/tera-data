@@ -1,5 +1,4 @@
-count  unk8
-offset unk8
+ref unk8
 
 int32  index
 int32  unk2 # amount?

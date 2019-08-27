@@ -1,7 +1,6 @@
-count  members
-offset members
-offset guildName
-offset guildMaster
+ref members
+ref guildName
+ref guildMaster
 
 int32  guildId
 int32  guildMasterId
@@ -20,8 +19,8 @@ string guildName
 string guildMaster
 
 array members
-- offset name
-- offset note
+- ref name
+- ref note
 - int32  playerID
 - int32  unk1
 - int32  location1

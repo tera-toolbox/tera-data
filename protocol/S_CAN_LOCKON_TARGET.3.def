@@ -1,4 +1,4 @@
-# MajorPatchVersion >= 74
+# majorPatchVersion >= 74
 
 uint64   target
 int32    unk

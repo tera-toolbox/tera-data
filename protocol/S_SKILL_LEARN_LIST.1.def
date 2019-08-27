@@ -1,9 +1,4 @@
-count skillList
-offset skillList
-
 array skillList
-- count requiredSkills
-- offset requiredSkills
 - uint32 unk1
 - uint32 skill
 - byte type # 0 = passive, 1 = active

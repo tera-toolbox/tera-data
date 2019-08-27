@@ -1,4 +1,4 @@
-# MajorPatchVersion >= 74
+# majorPatchVersion >= 74
 
 skillid skill
 int32   cooldown
