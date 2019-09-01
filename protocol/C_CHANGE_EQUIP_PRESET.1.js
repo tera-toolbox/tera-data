@@ -103,5 +103,12 @@ module.exports = {
 
         if (num_written_crystals !== crystals.length)
             throw Exception('Invalid data (crystals in slot without item)!');
+    },
+    cloner(data) {
+        return {
+            gameId: data.gameId,
+            items: data.items.map(item => Object.assign({}, item)),
+            crystals: data.crystals.map(crystal => Object.assign({}, crystal))
+        }
     }
 };
