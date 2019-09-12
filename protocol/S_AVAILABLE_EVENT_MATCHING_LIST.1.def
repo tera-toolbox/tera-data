@@ -1,5 +1,4 @@
-count  events
-offset events
+ref events
 
 int32  unk1
 int32  unk2
@@ -17,12 +16,9 @@ int32  limitGeneral # ?
 int32  level # ?
 
 array  events
-- count  arr2
-- offset arr2
-- count  rewards
-- offset rewards
-- count  arr1
-- offset arr1
+- ref arr2
+- ref rewards
+- ref arr1
 
 - int32  id
 - int32  unk1

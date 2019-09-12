@@ -1,7 +1,5 @@
-offset details
-count  details
-offset details2
-count  details2
+ref details
+ref details2
 
 int32  type # 1 = race, 2 = gender, 3 = appearance
 int32  playerId

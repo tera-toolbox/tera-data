@@ -1,9 +1,8 @@
-count  members
-offset members
+ref members
 string info
 
 array  members
-- offset name
+- ref name
 - uint64 pID
 - int32  level
 - int32  class

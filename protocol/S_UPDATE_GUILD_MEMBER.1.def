@@ -1,4 +1,3 @@
-offset name
 uint32 playerID
 uint32 location1
 uint32 location2

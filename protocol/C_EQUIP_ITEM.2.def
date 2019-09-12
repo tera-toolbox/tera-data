@@ -1,5 +1,0 @@
-# majorPatchVersion < 85
-
-uint64 gameId
-int32 slot
-int32 unk

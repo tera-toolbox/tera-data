@@ -1,4 +1,0 @@
-# majorPatchVersion < 85
-
-array events
-- uint32 id # StrSheet_HuntingZoneEvent

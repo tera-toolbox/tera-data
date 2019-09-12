@@ -1,12 +1,11 @@
-count  friends
-offset friends
-offset personalNote
+ref friends
+ref personalNote
 
 string personalNote
 array  friends
-- offset name
-- offset myNote
-- offset theirNote
+- ref name
+- ref myNote
+- ref theirNote
 - uint32 id
 - int32  group
 - int32  level

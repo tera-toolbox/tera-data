@@ -1,6 +1,3 @@
-count  members
-offset members
-
 bool   ims
 bool   raid
 uint32 unk1
@@ -17,7 +14,6 @@ byte   unk9 # 0?
 uint32 unk10 # 1?
 byte   unk11 # 0?
 array  members
-- offset name
 - uint32 serverId
 - uint32 playerId
 - uint32 level

@@ -1,11 +1,10 @@
-count  ranks
-offset ranks
-offset name
-offset master
-offset motd
-offset myRank
-offset ad
-offset emblem
+ref ranks
+ref name
+ref master
+ref motd
+ref myRank
+ref ad
+ref emblem
 
 int32 id
 int32 unk1
@@ -45,7 +44,7 @@ string ad
 string emblem
 
 array ranks
-- offset name
+- ref name
 - int32  id
 - int32  permissions
 - string name

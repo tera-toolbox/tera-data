@@ -1,8 +1,4 @@
-count  achievements
-offset achievements
 array  achievements
-- count  requirements
-- offset requirements
 - int32  id
 - array  requirements
 - - int32 index

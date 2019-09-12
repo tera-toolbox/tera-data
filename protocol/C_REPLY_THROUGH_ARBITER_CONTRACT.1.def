@@ -1,5 +1,3 @@
-offset  recipient
-
 uint32  type
 uint64  id
 uint32  response

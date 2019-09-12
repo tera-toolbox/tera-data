@@ -1,5 +1,3 @@
-offset name
-
 uint32 playerId
 uint32 listing
 int32 item

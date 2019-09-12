@@ -1,14 +1,10 @@
 # majorPatchVersion >= 85
 
-count crystals
-offset crystals
-count passivitySets
-offset passivitySets
-count mergedPassivities
-offset mergedPassivities
-count statComparison
-offset statComparison
-offset soulboundName
+ref crystals
+ref passivitySets
+ref mergedPassivities
+ref statComparison
+ref soulboundName
 
 int32  type # 17 = persistent, 20 = hover, 28 = new etching
 uint64 dbid
@@ -73,8 +69,7 @@ string soulboundName
 array<int32> crystals
 
 array[interleaved] passivitySets
-- count  passivities
-- offset passivities
+- ref passivities
 - uint32 index
 - int32  masterworkBonus
 - int32  itemLevel

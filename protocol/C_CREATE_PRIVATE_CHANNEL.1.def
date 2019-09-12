@@ -1,6 +1,5 @@
-count members
-offset members
-offset name
+ref members
+ref name
 
 uint16 password
 string name

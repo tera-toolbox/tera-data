@@ -1,4 +1,4 @@
-# majorPatchVersion >= 81
+# majorPatchVersion >= 85
 
 uint64   gameId
 uint64   dbid

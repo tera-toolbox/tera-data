@@ -1,6 +1,7 @@
-uint32 id
-string name
-
-array friends
--uint32 playerId
--uint32 id # moving player to this Group ID
+ref      friends
+ref      name
+uint32   id
+string   name
+array    friends
+- uint32 playerId
+- uint32 id # moving player to this Group ID

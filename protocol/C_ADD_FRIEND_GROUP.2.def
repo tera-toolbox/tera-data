@@ -1,3 +1,5 @@
+ref friends
+ref name
 uint32 id
 string name
 array<uint32> friends # playerIds

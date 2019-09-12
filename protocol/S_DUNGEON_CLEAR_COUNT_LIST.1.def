@@ -1,6 +1,3 @@
-count  dungeons
-offset dungeons
-
 uint32 pid
 array  dungeons
 - int32 id
