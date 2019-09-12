@@ -1,7 +1,6 @@
 int32 page
 int32 pages
 array events
-- ref name
 - int64  unk1
 - int64  date
 - int32  event
