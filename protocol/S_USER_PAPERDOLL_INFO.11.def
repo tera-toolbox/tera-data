@@ -88,7 +88,7 @@ uint32 styleBody
 uint32 styleFootprint
 uint32 flightDataId
 float  flightSpeedMultiplier
-bool   unk # echo'd from C packets
+bool   zoom # echo'd from C packets
 
 array items # see S_ITEMLIST
 - int32  id
