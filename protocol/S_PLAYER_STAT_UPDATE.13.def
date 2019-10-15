@@ -69,8 +69,8 @@ int32  stamina # Resolve, Chi, Willpower, etc.
 int32  staminaMax
 int32  staminaBonus
 int32  infamy
-int32  itemLevelInventory
-int32  itemLevel
+float  itemLevelInventory
+float  itemLevel
 int32  edge
 float  edgePercentage
 int32  edgeTimeRemaining # milliseconds
