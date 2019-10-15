@@ -1,3 +1,5 @@
+# majorPatchVersion < 86
+
 uint64 target
 float  hp
 float  mp

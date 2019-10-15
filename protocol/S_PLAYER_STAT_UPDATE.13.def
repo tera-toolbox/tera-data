@@ -1,4 +1,4 @@
-# majorPatchVersion >= 80 && majorPatchVersion < 86
+# majorPatchVersion >= 86
 
 int64  hp
 int32  mp
@@ -7,17 +7,25 @@ int64  maxHp
 int32  maxMp
 int32  power
 int32  endurance
-int32  impactFactor
-int32  balanceFactor
-int16  runSpeed
-int16  walkSpeed
-int16  attackSpeed
 float  critRate
 float  critResist
 float  critPower
+float  critPowerPhysical
+float  critPowerMagical
+int16  attackSpeed
+int16  runSpeed
+int16  walkSpeed
+int32  impactFactor
+int32  balanceFactor
 int32  attackMin
 int32  attackMax
+int32  attackPhysicalMin
+int32  attackPhysicalMax
+int32  attackMagicalMin
+int32  attackMagicalMax
 int32  defense
+int32  defensePhysical
+int32  defenseMagical
 int32  impact
 int32  balance
 float  resistWeakening
@@ -33,9 +41,17 @@ int16  attackSpeedBonus
 float  critRateBonus
 float  critResistBonus
 float  critPowerBonus
+float  critPowerPhysicalBonus
+float  critPowerMagicalBonus
 int32  attackMinBonus
 int32  attackMaxBonus
 int32  defenseBonus
+int32  attackPhysicalMinBonus
+int32  attackPhysicalMaxBonus
+int32  defensePhysicalBonus
+int32  attackMagicalMinBonus
+int32  attackMagicalMaxBonus
+int32  defenseMagicalBonus
 int32  impactBonus
 int32  balanceBonus
 float  resistWeakeningBonus

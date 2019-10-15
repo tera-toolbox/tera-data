@@ -1,8 +1,8 @@
-# majorPatchVersion >= 85 && majorPatchVersion < 87
+# majorPatchVersion >= 87
 
 uint64 gameId
-int32  itemLevelInventory
-int32  itemLevel
+float  itemLevelInventory
+float  itemLevel
 int64  tcat
 int32  brokerUseTcat # unsure
 int64  vipToken # unsure

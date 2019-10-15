@@ -1,3 +1,5 @@
+# majorPatchVersion < 86
+
 uint64 gainedTotalEXP
 uint64 totalEXP
 uint64 levelEXP

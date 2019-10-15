@@ -1,16 +1,23 @@
-# majorPatchVersion == 85
+# majorPatchVersion >= 86
 
-bool   veteran
-int32  bonusBufSec
-int32  maxCharacters
-bool   first
-bool   more
-int32  leftDelTimeAccountOver
-int32  deletionSectionClassifyLevel
-int32  deleteCharacterExpireHour1
-int32  deleteCharacterExpireHour2
+ref         characters
 
-array  characters
+bool        veteran
+int32       bonusBufSec
+int32       maxCharacters
+bool        first
+bool        more
+int32       leftDelTimeAccountOver
+int32       deletionSectionClassifyLevel
+int32       deleteCharacterExpireHour1
+int32       deleteCharacterExpireHour2
+
+array       characters
+- ref       customStrings
+- ref       name
+- ref       details
+- ref       shape
+- ref       guildName
 - uint32    id
 - int32     gender # 1 = female, 2 = male
 - int32     race   # 0..5
@@ -75,8 +82,8 @@ array  characters
 - int32     styleFootprint
 - uint32    styleBodyDye
 - uint32    weaponEnchant
-- int32     restBonusXp
-- int32     maxRestBonusXp
+- int64     restBonusXp
+- int64     maxRestBonusXp
 - bool      showFace
 - float     styleHeadScale
 - vec3fa    styleHeadRotation
@@ -101,12 +108,10 @@ array  characters
 - int32     guildLogoId
 - int32     awakeningLevel
 - bool      hasBrokerSales
-
-- array     customStrings
-- - int32   id
-- - string  string
-
 - string    name
 - bytes     details
 - bytes     shape
 - string    guildName
+- array     customStrings
+- - int32   id
+- - string  string

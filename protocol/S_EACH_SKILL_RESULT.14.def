@@ -1,4 +1,4 @@
-# majorPatchVersion.minorPatchVersion >= 74.02 && majorPatchVersion < 86
+# majorPatchVersion >= 86
 
 uint64  source
 uint64  owner      # If non-zero, then source is a projectile and this is its owner
@@ -23,6 +23,10 @@ object  reaction   # Used for knockdown, stagger etc.
 - bool    push
 - bool    air
 - bool    airChain
+
+int16   damageType # 0 = default, 1 = physical, 2 = magical
+
+object  reaction   # cont.
 - vec3    loc
 - angle   w
 - skillid skill

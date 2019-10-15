@@ -1,5 +1,9 @@
-# majorPatchVersion >= 81 && majorPatchVersion < 86
+# majorPatchVersion >= 86
 
+ref       servants
+ref       name
+ref       details
+ref       shape
 int32     templateId  # For players the convention is 1XXYY (X = 1 + race*2 + gender, Y = 1 + class). See C_CREATE_USER
 uint64    gameId      # globally-unique identifier for this session
 uint32    serverId
@@ -27,8 +31,8 @@ int64     totalLevelXp
 int32     epLevel
 int64     epXp
 int32     epDailyXp
-int32     restBonusXp
-int32     maxRestBonusXp
+int64     restBonusXp
+int64     maxRestBonusXp
 float     xpBonusPercent
 float     dropBonusPercent
 int32     weapon
@@ -70,12 +74,12 @@ int64     titleCount
 int32     appearance2 # unknown, but client ignores shape if this is invalid
 float     scale
 int32     guildLogoId
+string    name
+bytes     details
+bytes     shape
 array     servants # see S_REQUEST_SERVANT_INFO_LIST
 - uint64  dbid
 - uint32  id
 - uint32  type
 - uint32  energy
 - int32   slot
-string    name
-bytes     details
-bytes     shape
