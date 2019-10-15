@@ -113,5 +113,6 @@ array       characters
 - bytes     shape
 - string    guildName
 - array     customStrings
+- - ref     string
 - - int32   id
 - - string  string
