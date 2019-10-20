@@ -41,7 +41,7 @@ int64  etchingSecRemaining7
 int64  etchingSecRemaining8
 int32  enigma
 bool   masterwork
-int32  currentEquippedItemLevel   # item level of the item currently equipped at the slot that this item could be equipped to
+float  currentEquippedItemLevel   # item level of the item currently equipped at the slot that this item could be equipped to
 int32  remodel
 uint32 dye
 int32  dyeSecRemaining
