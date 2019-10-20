@@ -5,10 +5,13 @@
     "S_USER_ITEMLEVEL_INFO": { "1": { "max": 85 } },
     "S_TARGET_INFO": { "1": { "max": 85, "readable": true } },
     "S_GET_USER_LIST": { "16": { "max": 85 } },
-    "S_TARGET_INFO": { "1": { "max": 85, "readable": true } },
     "S_TRADE_BROKER_HIGHEST_ITEM_LEVEL": { "1": { "max": 85 } },
     "S_USER_PAPERDOLL_INFO": { "10": { "max": 85 } },
     "S_EACH_SKILL_RESULT": { "13": { "max": 85 } },
+    "S_ITEMLIST": { "1": { "max": 85, "readable": true } },
+    "S_REGISTER_ENCHANT_ITEM": { "2": { "max": 85, "readable": true } },
+    "S_REGISTER_EVOLUTION_ITEM": { "2": { "max": 85, "readable": true } },
+    "S_SHOW_ITEM_TOOLTIP": { "12": { "max": 85, "readable": true } },
     
     "S_INVEN_USERDATA": { "1": { "max": 86, "readable": true } }
 }

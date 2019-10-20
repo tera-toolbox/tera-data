@@ -1,4 +1,4 @@
-# majorPatchVersion >= 79 && majorPatchVersion < 86
+# majorPatchVersion >= 86
 
 uint32 contractId
 uint64 uniqueId
@@ -11,8 +11,8 @@ uint32 enchantLevel
 uint64 itemEXP
 uint64 itemEXPMax
 uint32 enchantLevelMax
-uint32 itemLevel
-uint32 itemLevelMax
+float itemLevel
+float itemLevelMax
 uint64 price
 bool hideSuccessChance
 float downgradeOnFailureChance

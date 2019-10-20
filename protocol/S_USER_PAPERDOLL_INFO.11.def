@@ -130,9 +130,9 @@ array items # see S_ITEMLIST
 - array  passivitySets
 - - uint32 index
 - - int32  masterworkBonus
-- - int32  itemLevel
-- - int32  minItemLevel
-- - int32  maxItemLevel
+- - float  itemLevel
+- - float  minItemLevel
+- - float  maxItemLevel
 - - array<int32> passivities
 - array<int32> mergedPassivities
 

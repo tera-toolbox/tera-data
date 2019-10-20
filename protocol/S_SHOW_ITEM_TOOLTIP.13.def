@@ -1,4 +1,4 @@
-# majorPatchVersion == 85
+# majorPatchVersion >= 86
 
 ref crystals
 ref passivitySets
@@ -72,9 +72,9 @@ array[interleaved] passivitySets
 - ref passivities
 - uint32 index
 - int32  masterworkBonus
-- int32  itemLevel
-- int32  minItemLevel
-- int32  maxItemLevel
+- float  itemLevel
+- float  minItemLevel
+- float  maxItemLevel
 - array<int32> passivities
 
 # As of RK-9 patch this no longer displays in the UI (probably a bug) and some variables were removed

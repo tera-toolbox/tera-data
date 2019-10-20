@@ -1,4 +1,4 @@
-# majorPatchVersion >= 79 && majorPatchVersion < 86
+# majorPatchVersion >= 86
 
 uint32 contractId
 uint64 sourceUniqueId
@@ -11,10 +11,10 @@ int32 masterworkBonus
 uint32 sourceEnchantLevel
 uint64 itemEXP
 uint64 itemEXPMax
-uint32 sourceItemLevel
-uint32 sourceItemLevelMax
-uint32 resultItemLevel
-uint32 resultItemLevelMax
+float sourceItemLevel
+float sourceItemLevelMax
+float resultItemLevel
+float resultItemLevelMax
 uint64 price
 bool hideSuccessChance
 float destroyOnFailureChance # unsure
