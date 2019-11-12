@@ -1,4 +1,4 @@
-# majorPatchVersion == 86
+# majorPatchVersion >= 87
 
 ref crystals
 ref passivitySets
@@ -47,7 +47,6 @@ uint32 dye
 int32  dyeSecRemaining
 int64  dyeDate                    # not read by the client
 int64  dyeExpiryDate
-int32  timesBrokered
 int64  acquisitionDate
 int64  secRemaining               # -1 = display acquisition date instead, -2 = Infinity
 int32  setId

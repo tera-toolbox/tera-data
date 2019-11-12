@@ -1,4 +1,4 @@
-# majorPatchVersion == 86
+# majorPatchVersion >= 87
 
 ref              items
 
@@ -42,7 +42,6 @@ array items
 - int64          dyeExpiryDate
 - bool           masterwork
 - int32          enigma
-- int32          timesBrokered
 - int32          enchantAdvantage # % x 100
 - int32          enchantBonus # % x 100 (added to enchantAdvantage + displayed separately)
 - int32          enchantBonusMaxPlus
