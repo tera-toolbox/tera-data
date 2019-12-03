@@ -8,7 +8,7 @@ int32            pocket
 int32            numPockets
 int32            size
 int64            money
-int32            lootPriority # 0: none, 1: fishing & cooking, 2: gathering & crafting
+int32            lootPriority # 0: none, 1: fishing & cooking, 2: gathering & crafting, 3: cards
 bool             open
 bool             requested # false if sent by server without C_SHOW_ITEMLIST; otherwise same as 'requested' flag in C_SHOW_ITEMLIST
 bool             first
