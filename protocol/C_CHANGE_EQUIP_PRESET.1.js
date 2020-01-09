@@ -15,7 +15,7 @@ array crystals
 
 module.exports = {
     reader(stream) {
-        result = {};
+        let result = {};
 
         const count_items = stream.uint16();
         const offset_items = stream.uint16();
