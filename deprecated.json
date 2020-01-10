@@ -1,5 +1,2 @@
 {
-    "S_INVEN_USERDATA": { "1": { "max": 86, "readable": true } },
-    "S_ITEMLIST": { "2": { "max": 86, "readable": true } },
-    "S_SHOW_ITEM_TOOLTIP": { "13": { "max": 86, "readable": true } }
 }
