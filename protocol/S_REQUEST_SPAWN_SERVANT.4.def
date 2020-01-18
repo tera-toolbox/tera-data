@@ -1,4 +1,4 @@
-# majorPatchVersion >= 85 && majorPatchVersion < 88
+# majorPatchVersion >= 88
 
 uint64   gameId
 uint64   dbid
@@ -12,6 +12,7 @@ int16    walkSpeed
 int16    runSpeed
 uint64   ownerId
 int32    energy
+int32    energyMax
 int32    spawnType # 0: enter world, 1: enter visible range
 int32    level
 int32    fellowship

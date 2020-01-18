@@ -1,4 +1,4 @@
-﻿# majorPatchVersion >= 85 && majorPatchVersion < 88
+﻿# majorPatchVersion >= 88
 
 ref        servants
 uint32     slots
@@ -12,6 +12,7 @@ array      servants
 - int32    level
 - int32    exp
 - int32    energy
+- int32    energyMax
 - int32    fellowship
 - uint64   availableUntil # unix timestamp (0: forever)
 - int32    slot # -1: automatic
