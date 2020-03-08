@@ -7,16 +7,11 @@ explained below.
 The currently known open source parsers are:
 - JavaScript (Node): [tera-data-parser](https://github.com/tera-toolbox/tera-data-parser-js)
 
-## Mappings
-
-The `map_base` directory contains files which map unique identifiers (names) to their
-numeric values. Currently, there are only `protocol.map` files, which link opcodes to "packet" names
-
 ## Protocol
 
 TERA's network data follows a custom protocol. It is convenient to describe the
 order and meaning of each element in a "packet", which is done through a `.def`
-file under the `protocol` directory, and named after the opcode it belongs to.
+file under the `definitions` directory, and named after the opcode it belongs to.
 
 Each line in the `.def` must consist of the following, in order:
 - An optional series of `-` for array and object definitions. These may be
