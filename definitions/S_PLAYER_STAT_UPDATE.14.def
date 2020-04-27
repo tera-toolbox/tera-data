@@ -1,5 +1,4 @@
-# majorPatchVersion >= 86 && majorPatchVersion < 93
-
+# majorPatchVersion >= 93
 int64  hp
 int32  mp
 int64  drain
@@ -26,8 +25,11 @@ int32  attackMagicalMax
 int32  defense
 int32  defensePhysical
 int32  defenseMagical
-int32  impact
-int32  balance
+int32  defenseReductionPhysical
+int32  defenseReductionMagical
+float  piercingPhysical
+float  piercingMagical
+float  unk
 float  resistWeakening
 float  resistPeriodic
 float  resistStun
@@ -52,8 +54,10 @@ int32  defensePhysicalBonus
 int32  attackMagicalMinBonus
 int32  attackMagicalMaxBonus
 int32  defenseMagicalBonus
-int32  impactBonus
-int32  balanceBonus
+int32  defenseReductionPhysicalBonus
+int32  defenseReductionMagicalBonus
+float  piercingPhysicalBonus
+float  piercingMagicalBonus
 float  resistWeakeningBonus
 float  resistPeriodicBonus
 float  resistStunBonus
