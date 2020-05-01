@@ -1,0 +1,17 @@
+# majorPatchVersion >= 85
+
+uint64 gameId
+int32  container
+int32  offset
+
+# Used only when depositing money
+int64  money
+
+# Used only when depositing items
+int32  fromPocket
+int32  fromSlot
+int32  id
+uint64 dbid
+int32  amount
+
+int32  toSlot

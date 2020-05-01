@@ -1,0 +1,35 @@
+# majorPatchVersion >= 85
+
+ref    items
+
+uint64 gameId
+int32  container                    # 1 = Bank, 3 = Guild Bank, 9 = Pet, 12 = Wardrobe
+int32  action                       # Setting this to 1 closes the window. Default: 0
+int32  offset                       # Slot number of the first (top left) slot. Determines which tab is currently selected
+int32  maxUsedSlot                  # Highest occupied slot number. Also determines number of temporary storage tabs available
+int32  numUsedSlots                 # Total number of occupied slots
+int64  money
+int16  numUnlockedSlots             # Determines number of unlocked tabs
+
+array items                         # For details, see S_ITEMLIST
+- ref          crystals
+- int32        id
+- uint64       dbid
+- uint64       ownerId
+- int32        container            # Same as above
+- int32        pocket               # Always 0
+- uint32       slot
+- int32        amountTotal
+- int32        amount
+- int32        enchant
+- int32        durability
+- bool         soulbound
+- uint32       unk
+- bool         masterwork
+- int32        enigma
+- int32        enchantAdvantage
+- int32        enchantBonus
+- int32        enchantBonusMaxPlus
+- bool         awakened
+- int32        liberationStatus
+- array<int32> crystals

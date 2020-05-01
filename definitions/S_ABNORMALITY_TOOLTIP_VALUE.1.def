@@ -1,0 +1,7 @@
+# majorPatchVersion >= 93
+
+uint64 gameId
+uint32 id
+array  values
+- uint32 type # effect type from DC
+- float  value
