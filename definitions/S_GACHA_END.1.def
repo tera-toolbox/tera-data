@@ -1,3 +1,5 @@
+# majorPatchVersion < 93
+
 int32 item1
 int32 item1Amount
 int32 item2

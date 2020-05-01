@@ -1,0 +1,13 @@
+# majorPatchVersion >= 93
+
+object randomReward
+- uint32 id
+- uint32 amount
+- bool mailed
+
+uint64 unkn
+
+array fixedRewards
+- uint32 id
+- uint32 amount
+- bool mailed
