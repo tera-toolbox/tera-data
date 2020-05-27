@@ -1,5 +1,6 @@
 {
     "S_PLAYER_STAT_UPDATE": { "13": { "max": 92, "readable": false } },
     "S_GACHA_START": { "1": { "max": 92, "readable": false } },
-    "S_GACHA_END": { "1": { "max": 92, "readable": false } }
+    "S_GACHA_END": { "1": { "max": 92, "readable": false } },
+    "S_DIALOG": { "1": { "max": 0, "readable": true }, "2": { "max": 0, "readable": true } }
 }
