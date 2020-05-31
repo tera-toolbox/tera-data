@@ -1,0 +1,14 @@
+uint64 gameId
+uint32 possible             # number of possible achievements; counts inactive ones, but excludes achievements for other classes
+uint32 accomplished         # number of accomplished achievements
+uint32 laurelPoints         # achievement points counting for laurels
+uint32 title                # active title achievement
+
+array achievements
+- uint32 id
+- uint64 completionTime     # unix timestamp
+
+array history
+- uint32 season
+- uint32 laurel
+- uint64 seasonStartTime    # unix timestamp
