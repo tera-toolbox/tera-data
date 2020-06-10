@@ -1,6 +1,12 @@
 {
-	"S_LOAD_ACHIEVEMENT_LIST": {
+	"S_PLAY_EVENT_SOUND": {
 		"1": {
+			"max": 0,
+			"readable": true
+		}
+	},
+	"S_PLAY_SOUND_BYNAME": {
+		"2": {
 			"max": 0,
 			"readable": true
 		}
