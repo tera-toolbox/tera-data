@@ -4,5 +4,17 @@
 			"max": 94,
 			"readable": true
 		}
+	},
+	"S_COLLECTION_PICKEND": {
+		"2": {
+			"max": 94,
+			"readable": true
+		}
+	},
+	"S_REQUEST_SERVANT_INFO_LIST": {
+		"3": {
+			"max": 94,
+			"readable": true
+		}
 	}
 }

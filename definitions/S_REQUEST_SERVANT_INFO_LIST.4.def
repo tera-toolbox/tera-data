@@ -1,6 +1,7 @@
-﻿# majorPatchVersion >= 88 && majorPatchVersion < 95
+﻿# majorPatchVersion >= 95
 
 ref        servants
+bool       hidden
 uint32     slots
 array      servants
 - ref      giftedSkills
