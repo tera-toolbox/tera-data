@@ -108,7 +108,7 @@ array       characters
 - int32     guildLogoId
 - int32     awakeningLevel
 - bool      hasBrokerSales
-- int32     numFinishedPetAdventures
+- uint32    petAdventureStatus # 0: inactive, 1: active, 2: finished
 - string    name
 - bytes     details
 - bytes     shape

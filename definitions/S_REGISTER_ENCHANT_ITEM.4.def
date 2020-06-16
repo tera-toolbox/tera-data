@@ -1,4 +1,4 @@
-# majorPatchVersion >= 86 && majorPatchVersion < 95
+# majorPatchVersion >= 95
 
 uint32 contractId
 uint64 uniqueId
@@ -17,6 +17,8 @@ uint64 price
 bool hideSuccessChance
 float downgradeOnFailureChance
 float damageOnFailureChance
+uint32 maxNumGearProtectors
+uint32 maxNumSafeguards
 
 array materials
 - uint32 id
