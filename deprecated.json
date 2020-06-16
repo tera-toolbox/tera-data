@@ -16,5 +16,11 @@
 			"max": 94,
 			"readable": true
 		}
+	},
+	"S_REGISTER_ENCHANT_ITEM": {
+		"3": {
+			"max": 94,
+			"readable": true
+		}
 	}
 }
