@@ -1,0 +1,3 @@
+bool   enabled
+int32  slot
+string name

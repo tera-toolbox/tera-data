@@ -1,13 +1,7 @@
 {
-	"S_PLAY_EVENT_SOUND": {
-		"1": {
-			"max": 0,
-			"readable": true
-		}
-	},
-	"S_PLAY_SOUND_BYNAME": {
-		"2": {
-			"max": 0,
+	"S_GET_USER_LIST": {
+		"17": {
+			"max": 94,
 			"readable": true
 		}
 	}

@@ -1,4 +1,4 @@
-# majorPatchVersion >= 86 && majorPatchVersion < 95
+# majorPatchVersion >= 95
 
 ref         characters
 
@@ -108,6 +108,7 @@ array       characters
 - int32     guildLogoId
 - int32     awakeningLevel
 - bool      hasBrokerSales
+- int32     numFinishedPetAdventures
 - string    name
 - bytes     details
 - bytes     shape
