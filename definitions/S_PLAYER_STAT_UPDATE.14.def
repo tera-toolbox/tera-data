@@ -29,7 +29,7 @@ int32  defenseReductionPhysical
 int32  defenseReductionMagical
 float  piercingPhysical
 float  piercingMagical
-float  unk
+float  healValue
 float  resistWeakening
 float  resistPeriodic
 float  resistStun
