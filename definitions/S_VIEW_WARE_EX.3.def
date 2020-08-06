@@ -1,4 +1,4 @@
-# majorPatchVersion >= 85 && majorPatchVersion < 96
+# majorPatchVersion >= 96
 
 ref    items
 
@@ -32,4 +32,5 @@ array items                         # For details, see S_ITEMLIST
 - int32        enchantBonusMaxPlus
 - bool         awakened
 - int32        liberationStatus
+- int64        availableUntil # unix timestamp
 - array<int32> crystals

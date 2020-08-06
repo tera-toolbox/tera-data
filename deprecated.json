@@ -5,6 +5,12 @@
 			"readable": true
 		}
 	},
+	"S_VIEW_WARE_EX": {
+		"2": {
+			"max": 95,
+			"readable": true
+		}
+	},
 	"S_LOAD_EP_INFO": {
 		"1": {
 			"max": 95,
