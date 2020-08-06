@@ -1,0 +1,6 @@
+uint32 usedPoints
+uint32 activePreset
+uint32 numUnlockedAdditionalPresets
+array perks
+- uint32 id
+- uint32 level

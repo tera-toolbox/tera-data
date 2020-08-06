@@ -1,0 +1,8 @@
+int32    type        # See S_SHOW_ITEM_TOOLTIP
+uint64   dbid
+int64    extraValue  # usage-specific value (e.g. listing for broker items)
+uint32   compareWith # item id to compare this item with
+object   owner
+- uint32 serverId    # 0 on same server
+- uint32 playerId    # -1 on self
+- string name

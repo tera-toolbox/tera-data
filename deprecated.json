@@ -1,25 +1,13 @@
 {
-	"S_GET_USER_LIST": {
-		"17": {
-			"max": 94,
-			"readable": true
-		}
-	},
-	"S_COLLECTION_PICKEND": {
-		"2": {
-			"max": 94,
-			"readable": true
-		}
-	},
-	"S_REQUEST_SERVANT_INFO_LIST": {
+	"S_ITEMLIST": {
 		"3": {
-			"max": 94,
+			"max": 95,
 			"readable": true
 		}
 	},
-	"S_REGISTER_ENCHANT_ITEM": {
-		"3": {
-			"max": 94,
+	"S_LOAD_EP_INFO": {
+		"1": {
+			"max": 95,
 			"readable": true
 		}
 	}

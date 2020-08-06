@@ -1,4 +1,4 @@
-# majorPatchVersion >= 39 && majorPatchVersion < 96
+# majorPatchVersion >= 96
 
 uint32 level
 uint64 exp
@@ -8,6 +8,8 @@ uint32 dailyExp
 uint32 dailyExpMax
 uint32 prevLevel
 uint32 prevTotalPoints
+uint32 activePreset
+uint32 numUnlockedAdditionalPresets
 array perks
 - uint32 id
 - uint32 level

@@ -1,4 +1,4 @@
-# majorPatchVersion >= 87 && majorPatchVersion < 96
+# majorPatchVersion >= 96
 
 ref              items
 
@@ -54,6 +54,7 @@ array items
 - bool           pcbang
 - int64          xp
 - bool           damaged # damaged due to enchant/upgrade failure, needs to be repaired.
+- int64          acquisitionDate
 - string         customString
 - array<int32>   crystals
 
