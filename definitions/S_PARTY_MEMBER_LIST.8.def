@@ -1,0 +1,34 @@
+# majorPatchVersion >= 69
+
+bool   ims
+bool   raid
+uint32 memberLimit
+uint64 id
+
+object leader
+- uint32 serverId
+- uint32 playerId
+
+object lootSettings
+- uint32 mode                       # 0: free for all, 1: round robin
+- uint32 distributeMinRarity
+- bool   distributeAllEquipment
+- bool   distributeOnlyReqClass
+- uint32 distributeMode             # 0: random, 1: roll
+- uint32 distributeModeBoP          # 0: random, 1: roll
+- bool   disableCombatLooting
+
+bool   anonymized
+
+array  members
+- uint32 serverId
+- uint32 playerId
+- uint32 level
+- uint32 class
+- bool   online
+- uint64 gameId
+- int32  slot
+- bool   canInvite
+- uint32 laurel
+- int32  awakeningLevel
+- string name
