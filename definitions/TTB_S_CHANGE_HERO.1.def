@@ -1,0 +1,5 @@
+# majorPatchVersion >= 99
+
+uint64 gameId
+uint32 templateId
+uint32 heroSkin

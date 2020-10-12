@@ -1,4 +1,4 @@
-# majorPatchVersion >= 93
+# majorPatchVersion >= 93 && majorPatchVersion < 99
 
 object randomReward
 - uint32 id

@@ -1,4 +1,4 @@
-# majorPatchVersion >= 80 && majorPatchVersion < 99
+# majorPatchVersion >= 99
 
 ref           owners
 ref           ownerName
@@ -12,5 +12,6 @@ bool          masterwork
 int32         enchant
 uint64        source
 bool          debug
+bool          autoLoot
 string        ownerName
 array<uint32> owners # playerIds

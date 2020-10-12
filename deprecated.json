@@ -1,1 +1,26 @@
-{}
+{
+    "S_SPAWN_USER": {
+        "15": {
+            "max": 98,
+            "readable": true
+        }
+    },
+    "S_SPAWN_DROPITEM": {
+        "8": {
+            "max": 98,
+            "readable": true
+        }
+    },
+    "C_GACHA_TRY": {
+        "1": {
+            "max": 98,
+            "readable": true
+        }
+    },
+    "S_GACHA_END": {
+        "2": {
+            "max": 98,
+            "readable": false
+        }
+    }
+}

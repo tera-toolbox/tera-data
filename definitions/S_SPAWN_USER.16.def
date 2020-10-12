@@ -1,4 +1,4 @@
-# majorPatchVersion < 99
+# majorPatchVersion >= 99
 
 uint32 serverId
 uint32 playerId
@@ -76,6 +76,7 @@ bool   showStyle
 int64  titleCount
 int32  appearance2
 float  scale
+uint32 heroSkin
 array<int32> icons
 array<int32> accountBenefits
 string name

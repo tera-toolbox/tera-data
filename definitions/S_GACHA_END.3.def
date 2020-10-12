@@ -1,0 +1,13 @@
+# majorPatchVersion >= 99
+
+ref boxes
+array boxes
+- ref fixedRewards
+- object randomReward
+- - uint32 id
+- - uint32 amount
+- - bool mailed
+- array fixedRewards
+- - uint32 id
+- - uint32 amount
+- - bool mailed

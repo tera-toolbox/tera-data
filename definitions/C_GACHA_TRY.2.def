@@ -1,0 +1,4 @@
+# majorPatchVersion >= 99
+
+uint32 id
+uint32 amount
