@@ -1,7 +1,10 @@
-# majorPatchVersion >= 79 && majorPatchVersion < 101
+# majorPatchVersion >= 101
 
 uint64 gameId
 uint64 target
+int32  level
+int64  maxHp
+int64  enrageThreshold
 vec3   loc
 angle  w
 int32  relation

@@ -1,0 +1,18 @@
+# majorPatchVersion >= 101
+
+array    friends
+- uint32 playerId
+- int32  level
+- int32  race
+- int32  class
+- int32  gender
+- int32  status
+- int32  worldId
+- int32  guardId
+- int32  sectionId
+- int32  dungeonGauntletDifficultyId
+- bool   updated
+- bool   isWorldEventTarget # see S_SPAWN_USER 
+- bool   summonable
+- int64  lastOnline
+- string name

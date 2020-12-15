@@ -1,0 +1,43 @@
+# majorPatchVersion >= 101
+
+ref      members
+ref      guildName
+ref      guildMaster
+
+int32    guildId
+int32    guildMasterId
+int32    guildLevel
+int64    guildXp
+int64    guildXpForLevel
+int64    guildFunds
+int32    characters
+int32    accounts
+int32    size # 0 = small, 1 = medium, 2 = large
+int64    creationDate
+bool     last
+bool     first
+bool     open
+string   guildName
+string   guildMaster
+
+array    members
+- ref    name
+- ref    note
+- uint32 playerId
+- int32  unk1
+- int32  worldId
+- int32  guardId
+- int32  sectionId
+- int32  dungeonGauntletDifficultyId
+- int32  rank
+- int32  level
+- int32  race
+- int32  class
+- int32  gender
+- int32  status # 0 = online, 2 = offline
+- int32  contributionCurrent
+- int64  contributionTotal
+- uint64 lastOnline # in seconds
+- bool   civilUnrestRewardEligible
+- string name
+- string note

@@ -1,0 +1,7 @@
+# majorPatchVersion >= 101
+
+uint32 playerId
+int32 worldId
+int32 guardId
+int32 sectionId
+int32 dungeonGauntletDifficultyId

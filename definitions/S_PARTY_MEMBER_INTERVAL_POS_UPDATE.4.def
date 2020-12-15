@@ -1,0 +1,8 @@
+# majorPatchVersion >= 101
+
+uint32 serverId
+uint32 playerId
+vec3   loc
+int32  zone
+int32  channel
+int32  dungeonGauntletDifficultyId

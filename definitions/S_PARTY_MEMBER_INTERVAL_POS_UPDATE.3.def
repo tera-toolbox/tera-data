@@ -1,3 +1,5 @@
+# majorPatchVersion < 101
+
 uint32 serverId
 uint32 playerId
 vec3   loc

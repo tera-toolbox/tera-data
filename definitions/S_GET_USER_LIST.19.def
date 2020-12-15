@@ -1,4 +1,4 @@
-# majorPatchVersion >= 95 && majorPatchVersion < 101
+# majorPatchVersion >= 101
 
 ref         characters
 
@@ -28,6 +28,7 @@ array       characters
 - int32     worldId
 - int32     guardId
 - int32     sectionId
+- int32     dungeonGauntletDifficultyId
 - int64     lastLogoutTime
 - bool      isDeleting
 - int64     deleteTime

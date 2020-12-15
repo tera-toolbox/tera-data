@@ -1,4 +1,4 @@
-# majorPatchVersion >= 80 && majorPatchVersion < 101
+# majorPatchVersion >= 101
 
 array dungeons
 - uint32 id
@@ -6,6 +6,7 @@ array dungeons
 - uint32 cooldown       # seconds
 - int16 entriesDay      # -1: no daily limit
 - int16 entriesWeek     # -1: no weekly limit
+- bool gauntletMode
 
 array battlegrounds
 - uint32 id

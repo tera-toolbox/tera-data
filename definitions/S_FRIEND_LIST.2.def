@@ -1,0 +1,26 @@
+# majorPatchVersion >= 101
+
+ref      friends
+ref      personalNote
+string   personalNote
+array    friends
+- ref    name
+- ref    myNote
+- ref    theirNote
+- uint32 playerId
+- int32  group
+- int32  level
+- int32  race
+- int32  class
+- int32  gender
+- int32  worldId
+- int32  guardId
+- int32  sectionId
+- int32  dungeonGauntletDifficultyId
+- bool   summonable
+- int64  lastOnline
+- uint32 type # 0: friend, 1: outgoing friend request, 2: incoming friend request
+- int32  bonds
+- string name
+- string myNote
+- string theirNote
