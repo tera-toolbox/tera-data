@@ -1,0 +1,7 @@
+# majorPatchVersion >= 100
+
+uint64 accountId
+int32  antiCheatChecksumSeed
+string dbServerName
+string apiServerAddress
+string apiServerAuthToken
