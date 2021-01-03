@@ -1,0 +1,17 @@
+﻿﻿# majorPatchVersion >= 80
+
+uint64  id
+uint32  huntingZone
+skillid skill
+vec3    loc
+vec3    dest
+bool    moving
+float   speed
+uint64  gameId
+int32   templateId
+uint32  velocityType
+uint32  acceleration
+angle   w
+float projectileSpeed
+float flyingDistance
+float effectScale
