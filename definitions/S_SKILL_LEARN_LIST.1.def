@@ -1,10 +1,15 @@
-array skillList
-- uint32 unk1
-- uint32 skill
-- byte type # 0 = passive, 1 = active
-- uint32 price # price in copper
-- uint32 level # required level
-- byte learned
-- array requiredSkills
-- - uint32 skill
-- - byte type # 0 = passive, 1 = active
+ref        skills
+array      skills
+- ref      requiredSkills
+- ref      requiredItems
+- uint32   id
+- bool     active
+- uint32   requiredMoney
+- uint32   requiredLevel
+- bool     available
+- array    requiredItems
+- - uint32 id
+- - uint32 amount
+- array    requiredSkills
+- - uint32 id
+- - bool   active

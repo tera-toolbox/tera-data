@@ -1,0 +1,4 @@
+bool   success
+bool   forced
+uint32 oldSkill # 0: no lower-level skill is replaced
+uint32 newSkill
