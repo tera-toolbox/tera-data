@@ -1,4 +1,4 @@
-# majorPatchVersion >= 101 && majorPatchVersion < 103
+# majorPatchVersion >= 103
 
 ref         characters
 
@@ -110,6 +110,8 @@ array       characters
 - int32     awakeningLevel
 - bool      hasBrokerSales
 - uint32    petAdventureStatus # 0: inactive, 1: active, 2: finished
+- float     itemLevel
+- uint32    adventureCoins
 - string    name
 - bytes     details
 - bytes     shape

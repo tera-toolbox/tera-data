@@ -33,8 +33,8 @@ bool   bySpawnEvent             # seems to be true only for NPCs spawned by spec
 uint16 bgTeam                   # used only for some NPCs in kumas BG
 uint32 activeCylinder           # sets active cylinder ID for collision/hit detection, added in majorPatchVersion 50 for Vergos
 bool   repairable               # used to mark repairable vehicle NPCs. Also seems to disable special NPC markers (effects above the heads of merchants, for example) if set to false
-uint32 flightInteractionType    # see NpcInteractionData in datacenter
 bool   unkn1
+uint32 flightInteractionType    # see NpcInteractionData in datacenter
 
 # Info seats of vehicle NPCs
 array  seats

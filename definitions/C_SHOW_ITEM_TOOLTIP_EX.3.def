@@ -1,3 +1,5 @@
+# majorPatchVersion < 103
+
 int32  type # See S_SHOW_ITEM_TOOLTIP
 int64  id
 int32  unk1

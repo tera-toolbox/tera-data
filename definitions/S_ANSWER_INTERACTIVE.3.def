@@ -1,0 +1,10 @@
+# majorPatchVersion >= 103
+
+int32  type
+uint32 playerId
+int32  templateId
+int32  level
+bool   hasParty # false = display Invite to party in tooltip
+bool   hasGuild # false = display Invite to guild in tooltip
+uint32 serverId
+string name

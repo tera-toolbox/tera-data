@@ -1,3 +1,5 @@
+# majorPatchVersion < 103
+
 int32 unk
 int32 model
 int32 level
