@@ -1,3 +1,8 @@
 {
- 
+    "S_GET_USER_LIST": {
+        "20": {
+            "max": 103,
+            "readable": true
+        }
+    }
 }

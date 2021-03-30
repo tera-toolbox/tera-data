@@ -1,4 +1,4 @@
-# majorPatchVersion >= 103 && majorPatchVersion < 104
+# majorPatchVersion >= 104
 
 ref         characters
 
@@ -112,6 +112,7 @@ array       characters
 - uint32    petAdventureStatus # 0: inactive, 1: active, 2: finished
 - float     itemLevel
 - uint32    adventureCoins
+- uint32    adventureCoinsMax
 - string    name
 - bytes     details
 - bytes     shape
