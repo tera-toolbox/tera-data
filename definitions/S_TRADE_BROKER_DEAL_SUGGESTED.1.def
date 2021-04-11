@@ -1,7 +1,8 @@
 uint32 playerId
 uint32 listing
 int32 item
-int64 amount
+int32 amount
+int32 enchant
 int64 sellerPrice
 int64 offeredPrice
 string name

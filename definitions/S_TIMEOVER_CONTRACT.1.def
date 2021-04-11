@@ -1,0 +1,6 @@
+# majorPatchVersion >= 95
+
+int64  source
+int64  target
+int32  type     #See S_REQUEST_CONTRACT.type
+uint32 id
