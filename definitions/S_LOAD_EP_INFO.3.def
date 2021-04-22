@@ -1,4 +1,4 @@
-# majorPatchVersion >= 96 && majorPatchVersion < 105
+# majorPatchVersion >= 105
 
 uint32 level
 uint64 exp
@@ -13,3 +13,4 @@ uint32 numUnlockedAdditionalPresets
 array perks
 - uint32 id
 - uint32 level
+array<uint32> perksSeen

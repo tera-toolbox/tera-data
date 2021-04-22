@@ -1,8 +1,20 @@
 {
-    "S_GET_USER_LIST": {
-        "20": {
-            "max": 103,
+    "S_USER_LOCATION": {
+        "5": {
+            "max": 104,
             "readable": true
+        }
+    },
+    "S_PLAYER_STAT_UPDATE": {
+        "14": {
+            "max": 104,
+            "readable": false
+        }
+    },
+    "S_LOAD_EP_INFO": {
+        "2": {
+            "max": 104,
+            "readable": false
         }
     }
 }

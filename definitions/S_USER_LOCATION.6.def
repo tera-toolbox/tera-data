@@ -1,4 +1,4 @@
-# majorPatchVersion < 105
+# majorPatchVersion >= 105
 
 uint64 gameId
 vec3   loc
@@ -8,3 +8,4 @@ int16  speed
 vec3   dest
 int32  type # see C_PLAYER_LOCATION.type
 bool   inShuttle
+int16  unkn # probably related to GroundBoost system
