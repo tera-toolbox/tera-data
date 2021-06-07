@@ -9,11 +9,31 @@
         "14": {
             "max": 104,
             "readable": false
+        },
+        "15": {
+            "max": 105,
+            "readable": false
         }
     },
     "S_LOAD_EP_INFO": {
         "2": {
             "max": 104,
+            "readable": false
+        }
+    },
+    "S_USER_PAPERDOLL_INFO": {
+        "11": {
+            "max": 92,
+            "readable": false
+        },
+        "12": {
+            "max": 105,
+            "readable": false
+        }
+    },
+    "C_SHOW_ITEM_TOOLTIP_EX": {
+        "5": {
+            "max": 105,
             "readable": false
         }
     }

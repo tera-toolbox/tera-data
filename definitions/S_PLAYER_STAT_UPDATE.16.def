@@ -1,4 +1,4 @@
-# majorPatchVersion == 105
+# majorPatchVersion >= 106
 
 int64  hp
 int32  mp
@@ -17,6 +17,8 @@ int16  runSpeed
 int16  walkSpeed
 int32  impactFactor
 int32  balanceFactor
+int32  totalAttack
+int32  totalDefense
 int32  attackMin
 int32  attackMax
 int32  attackPhysicalMin
@@ -69,7 +71,7 @@ bool   alive
 int32  hpBonus
 int32  mpBonus
 int32  condition # Stamina in English version
-int32  contitionMax
+int32  conditionMax
 int32  stamina # Resolve, Chi, Willpower, etc.
 int32  staminaMax
 int32  staminaBonus

@@ -1,4 +1,4 @@
-# majorPatchVersion >= 86 && majorPatchVersion < 93
+# majorPatchVersion >= 106
 
 uint32 templateId
 uint64 gameId
@@ -35,6 +35,8 @@ int16  runSpeed
 int16  walkSpeed
 int32  impactFactor
 int32  balanceFactor
+int32  totalAttack
+int32  totalDefense
 int32  attackMin
 int32  attackMax
 int32  attackPhysicalMin
@@ -44,11 +46,13 @@ int32  attackMagicalMax
 int32  defense
 int32  defensePhysical
 int32  defenseMagical
-int32  impact
-int32  balance
+int32  defenseReductionPhysical
+int32  defenseReductionMagical
+float  piercingPhysical
+float  piercingMagical
 float  resistWeakening
 float  resistPeriodic
-float  resistStun 
+float  resistStun
 int32  powerBonus
 int32  enduranceBonus
 int32  impactFactorBonus
@@ -69,8 +73,10 @@ int32  defensePhysicalBonus
 int32  attackMagicalMinBonus
 int32  attackMagicalMaxBonus
 int32  defenseMagicalBonus
-int32  impactBonus
-int32  balanceBonus
+int32  defenseReductionPhysicalBonus
+int32  defenseReductionMagicalBonus
+float  piercingPhysicalBonus
+float  piercingMagicalBonus
 float  resistWeakeningBonus
 float  resistPeriodicBonus
 float  resistStunBonus
@@ -94,8 +100,8 @@ array items # see S_ITEMLIST
 - int32  id
 - uint64 dbid
 - uint64 ownerId
-- int32 container
-- int32 pocket
+- int32  container
+- int32  pocket
 - uint32 slot
 - int32  amount
 - int32  enchant
@@ -106,26 +112,16 @@ array items # see S_ITEMLIST
 - int32  crystal3
 - int32  crystal4
 - int32  crystal5
-- int32  passivitySet
-- int32  extraPassivitySets
-- int32  remodel
-- uint32 dye
-- int32  dyeSecRemaining
-- int64  dyeDate
-- int64  dyeExpiryDate
 - bool   masterwork
 - int32  enigma
-- int32  timesBrokered
 - int32  enchantAdvantage
 - int32  enchantBonus
 - int32  enchantBonusMaxPlus
-- uint64 boundToPlayer
 - bool   awakened
 - int32  liberationStatus
-- int32  feedstock
-- int32  boundToItem
-- bool   hasEtching
 - bool   pcbang
+- int32  passivitySet
+- int32  extraPassivitySets
 - int64  xp
 - array  passivitySets
 - - uint32 index
