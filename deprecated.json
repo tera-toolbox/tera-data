@@ -1,24 +1,26 @@
 {
-    "S_USER_LOCATION": {
-        "5": {
-            "max": 104,
-            "readable": true
-        }
-    },
     "S_PLAYER_STAT_UPDATE": {
-        "14": {
-            "max": 104,
-            "readable": false
-        },
         "15": {
             "max": 105,
             "readable": false
         }
     },
-    "S_LOAD_EP_INFO": {
-        "2": {
-            "max": 104,
+    "C_SHOW_ITEM_TOOLTIP_EX": {
+        "5": {
+            "max": 105,
             "readable": false
+        }
+    },
+    "S_SHOW_ITEM_TOOLTIP": {
+        "14": {
+            "max": 105,
+            "readable": false
+        }
+    },
+    "S_PARTY_INFO": {
+        "1": {
+            "max": 105,
+            "readable": true
         }
     },
     "S_USER_PAPERDOLL_INFO": {
@@ -27,12 +29,6 @@
             "readable": false
         },
         "12": {
-            "max": 105,
-            "readable": false
-        }
-    },
-    "C_SHOW_ITEM_TOOLTIP_EX": {
-        "5": {
             "max": 105,
             "readable": false
         }

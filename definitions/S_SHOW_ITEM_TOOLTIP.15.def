@@ -1,4 +1,4 @@
-# majorPatchVersion >= 87 && majorPatchVersion < 106
+# majorPatchVersion >= 106
 
 ref crystals
 ref passivitySets
