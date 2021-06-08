@@ -3,10 +3,9 @@
 ref crystals
 ref passivitySets
 ref mergedPassivities
-object statComparison
-- ref currentVersionDelta
-- ref currentEquippedEtchings
-- ref baseVersionDelta
+ref statComparisonCurrentVersionDelta
+ref statComparisonCurrentEquippedEtchings
+ref statComparisonBaseVersionDelta
 ref soulboundName
 
 int32  type # 17 = persistent, 20 = hover, 28 = new etching
@@ -80,61 +79,58 @@ array passivitySets
 
 array<int32> mergedPassivities
 
-object statComparison
-- array currentVersionDelta
-- - int32 totalAttack
-- - int32 totalDefense
-- - int32 power
-- - int32 endurance
-- - float critRate
-- - float critResist
-- - float critPower
-- - float critPowerPhysical
-- - float critPowerMagical
-- - float piercingPhysical
-- - float piercingMagical
-- - int32 defenseReductionPhysical
-- - int32 defenseReductionMagical
-- - int16 attackSpeed
-- - int16 runSpeed
-- - float flightSpeedMul
-- - int32 impactFactor
-- - int32 balanceFactor
+array statComparisonCurrentVersionDelta
+- int32 totalAttack
+- int32 totalDefense
+- int32 power
+- int32 endurance
+- float critRate
+- float critResist
+- float critPower
+- float critPowerPhysical
+- float critPowerMagical
+- float piercingPhysical
+- float piercingMagical
+- int32 defenseReductionPhysical
+- int32 defenseReductionMagical
+- int16 attackSpeed
+- int16 runSpeed
+- float flightSpeedMul
+- int32 impactFactor
+- int32 balanceFactor
 
-- array baseVersionDelta
-- - int32 totalAttack
-- - int32 totalDefense
-- - int32 power
-- - int32 endurance
-- - float critRate
-- - float critResist
-- - float critPower
-- - float critPowerPhysical
-- - float critPowerMagical
-- - float piercingPhysical
-- - float piercingMagical
-- - int32 defenseReductionPhysical
-- - int32 defenseReductionMagical
-- - int16 attackSpeed
-- - int16 runSpeed
-- - float flightSpeedMul
-- - int32 impactFactor
-- - int32 balanceFactor
+array statComparisonBaseVersionDelta
+- int32 totalAttack
+- int32 totalDefense
+- int32 power
+- int32 endurance
+- float critRate
+- float critResist
+- float critPower
+- float critPowerPhysical
+- float critPowerMagical
+- float piercingPhysical
+- float piercingMagical
+- int32 defenseReductionPhysical
+- int32 defenseReductionMagical
+- int16 attackSpeed
+- int16 runSpeed
+- float flightSpeedMul
+- int32 impactFactor
+- int32 balanceFactor
 
-- array currentEquippedEtchings
-- - int32 etching1
-- - int32 etching2
-- - int32 etching3
-- - int32 etching4
-- - int32 etching5
-- - int32 etching6
-- - int32 etching7
-- - int32 etching8
-- - int64 etchingSecRemaining1
-- - int64 etchingSecRemaining2
-- - int64 etchingSecRemaining3
-- - int64 etchingSecRemaining4
-- - int64 etchingSecRemaining5
-- - int64 etchingSecRemaining6
-- - int64 etchingSecRemaining7
-- - int64 etchingSecRemaining8
+array statComparisonCurrentEquippedEtchings
+- int32 etching1
+- int32 etching2
+- int32 etching3
+- int32 etching4
+- int32 etching5
+- int32 etching6
+- int32 etching7
+- int32 etching8
+- int64 etchingSecRemaining1
+- int64 etchingSecRemaining2
+- int64 etchingSecRemaining3
+- int64 etchingSecRemaining4
+- int64 etchingSecRemaining5
+- int64 etchingSecRemaining6
