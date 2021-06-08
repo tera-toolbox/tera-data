@@ -38,5 +38,15 @@
             "max": 105,
             "readable": false
         }
+    },
+    "S_PARTY_MEMBER_LIST": {
+        "7": {
+            "max": 105,
+            "readable": false
+        },
+        "8": {
+            "max": 105,
+            "readable": false
+        }
     }
 }

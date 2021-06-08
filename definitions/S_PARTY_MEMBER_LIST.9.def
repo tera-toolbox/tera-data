@@ -1,4 +1,4 @@
-# majorPatchVersion >= 69 && majorPatchVersion < 106
+# majorPatchVersion >= 106
 
 bool   ims
 bool   raid
@@ -25,6 +25,8 @@ array  members
 - uint32 playerId
 - uint32 level
 - uint32 class
+- uint32 race
+- uint32 gender
 - bool   online
 - uint64 gameId
 - int32  slot
