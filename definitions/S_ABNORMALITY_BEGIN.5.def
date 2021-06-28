@@ -1,0 +1,12 @@
+# majorPatchVersion >= 107
+
+uint64 target
+uint64 source
+uint32 id
+int64  duration # 0x7FFFFFFF = infinite
+int32  stacks
+uint32 hitCylinderId
+uint32 reason # 0: regular application, 1: reapplied on login, 2: reapplied on teleport
+array  values
+- uint32 type # effect type from DC
+- float  value

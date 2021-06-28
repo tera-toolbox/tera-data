@@ -1,4 +1,4 @@
-# majorPatchVersion >= 96 && majorPatchVersion < 107
+# majorPatchVersion >= 107
 
 ref              items
 
@@ -19,6 +19,7 @@ array items
 - ref            crystals
 - ref            passivitySets
 - ref            mergedPassivities
+- uint32         unknown # probably patch 108 RandomEquipmentTemplate/Passivity data
 - ref            customString
 
 - int32          id

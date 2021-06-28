@@ -1,10 +1,11 @@
-# majorPatchVersion == 106
+# majorPatchVersion >= 107
 
 ref crystals
 ref passivitySets
 ref mergedPassivities
 ref statComparisonCurrentVersionDelta
 ref statComparisonCurrentEquippedEtchings
+uint32 unknown # probably patch 108 RandomEquipmentTemplate/Passivity data
 ref statComparisonBaseVersionDelta
 ref soulboundName
 

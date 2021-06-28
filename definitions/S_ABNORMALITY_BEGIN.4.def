@@ -1,4 +1,4 @@
-# majorPatchVersion >= 75
+# majorPatchVersion >= 75 && majorPatchVersion < 107
 
 uint64 target
 uint64 source

@@ -1,51 +1,23 @@
 {
-    "S_PLAYER_STAT_UPDATE": {
-        "15": {
-            "max": 105,
+    "S_ABNORMALITY_BEGIN": {
+        "3": {
+            "max": 106,
+            "readable": false
+        },
+        "4": {
+            "max": 106,
             "readable": false
         }
     },
-    "C_SHOW_ITEM_TOOLTIP_EX": {
-        "5": {
-            "max": 105,
+    "S_ITEMLIST": {
+        "4": {
+            "max": 106,
             "readable": false
         }
     },
     "S_SHOW_ITEM_TOOLTIP": {
-        "14": {
-            "max": 105,
-            "readable": false
-        }
-    },
-    "S_REPLY_NONDB_ITEM_INFO": {
-        "1": {
-            "max": 105,
-            "readable": false
-        }
-    },
-    "S_PARTY_INFO": {
-        "1": {
-            "max": 105,
-            "readable": true
-        }
-    },
-    "S_USER_PAPERDOLL_INFO": {
-        "11": {
-            "max": 92,
-            "readable": false
-        },
-        "12": {
-            "max": 105,
-            "readable": false
-        }
-    },
-    "S_PARTY_MEMBER_LIST": {
-        "7": {
-            "max": 105,
-            "readable": false
-        },
-        "8": {
-            "max": 105,
+        "15": {
+            "max": 106,
             "readable": false
         }
     }
