@@ -1,0 +1,17 @@
+# majorPatchVersion >= 108
+
+uint32 serverId
+uint32 playerId
+int64  hp
+int32  mp
+int64  maxHp
+int32  maxMp
+uint16 level
+uint16 status # see S_USER_STATUS
+uint16 conditionLevel 
+bool   alive
+int32  condition # Stamina in English version 
+int32  stamina # Resolve, Chi, Willpower, etc.
+int32  staminaMax
+int32  staminaBonus
+uint32 affectedByCampfire

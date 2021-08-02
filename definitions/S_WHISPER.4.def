@@ -1,6 +1,8 @@
-# majorPatchVersion < 108
+# majorPatchVersion >= 108
 
 uint64 gameId
+uint32 senderServerId
+uint32 recipientServerId
 bool   isWorldEventTarget   # see S_SPAWN_USER
 bool   gm
 bool   founder              # CBT User. Early access set.

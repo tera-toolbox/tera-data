@@ -1,4 +1,4 @@
-# Region : KR, since near Elin Gunner patch possibly Arsenal patch
+# majorPatchVersion < 108
 
 uint32 serverId
 uint32 playerId

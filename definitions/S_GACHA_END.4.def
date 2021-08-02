@@ -1,4 +1,4 @@
-# majorPatchVersion >= 99 && majorPatchVersion < 108
+# majorPatchVersion >= 108
 
 ref boxes
 array boxes
@@ -8,6 +8,7 @@ array boxes
 - - uint32 amount
 - - bool mailed
 - array fixedRewards
+- - uint64 dbid
 - - uint32 id
 - - uint32 amount
 - - bool mailed

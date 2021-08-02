@@ -1,0 +1,5 @@
+# majorPatchVersion >= 108
+
+uint32 targetServer
+string target
+string message

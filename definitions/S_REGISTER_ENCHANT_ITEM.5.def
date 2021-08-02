@@ -1,4 +1,4 @@
-# majorPatchVersion >= 95 && majorPatchVersion < 108
+# majorPatchVersion >= 108
 
 uint32 contractId
 uint64 uniqueId
@@ -17,8 +17,6 @@ uint64 price
 bool hideSuccessChance
 float downgradeOnFailureChance
 float damageOnFailureChance
-uint32 maxNumGearProtectors
-uint32 maxNumSafeguards
 
 array materials
 - uint32 id
@@ -27,3 +25,22 @@ array materials
 array successChances
 - uint32 type
 - float chance
+
+array supplements
+- uint32 type
+- uint32 amount
+
+array equipmentStats
+- int32 minAttack
+- int32 maxAttack
+- int32 defense
+- int32 minAttackPhysical
+- int32 maxAttackPhysical
+- int32 minAttackMagical
+- int32 maxAttackMagical
+- int32 defensePhysical
+- int32 defenseMagical
+- int32 unkn1
+- int32 unkn2
+- int64 unkn3
+- int64 unkn4

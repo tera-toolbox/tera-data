@@ -1,9 +1,11 @@
-# majorPatchVersion < 108
+# majorPatchVersion >= 108
 
+uint32 channel              # see cChat.def
 uint64 gameId
+uint32 playerId
+uint32 serverId
 bool   isWorldEventTarget   # see S_SPAWN_USER
 bool   gm
 bool   founder              # CBT User. Early access set.
 string name
-string recipient
 string message

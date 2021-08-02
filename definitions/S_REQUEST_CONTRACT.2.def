@@ -1,9 +1,10 @@
-# majorPatchVersion < 108
+# majorPatchVersion >= 108
 
 uint64 senderId
 uint64 recipientId
 int32  type
 int32  id
+uint32 serverId
 int32  unk3
 int32  time
 string senderName

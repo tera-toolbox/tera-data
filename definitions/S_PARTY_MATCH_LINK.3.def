@@ -1,0 +1,9 @@
+# majorPatchVersion >= 108
+
+uint32 partyId
+uint32 serverId
+bool   isWorldEventTarget   # see S_SPAWN_USER 
+bool   raid
+uint32 level
+string name
+string message

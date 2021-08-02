@@ -1,3 +1,5 @@
+# majorPatchVersion < 108
+
 int64 cid
 int32 unk1
 int32 achievements

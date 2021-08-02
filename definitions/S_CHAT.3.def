@@ -1,3 +1,5 @@
+# majorPatchVersion < 108
+
 uint32 channel              # see cChat.def
 uint64 gameId
 bool   isWorldEventTarget   # see S_SPAWN_USER

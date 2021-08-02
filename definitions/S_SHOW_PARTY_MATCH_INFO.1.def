@@ -1,3 +1,5 @@
+# majorPatchVersion < 108
+
 int16       pageCurrent # page - 1
 int16       pageCount # pages - 1
 array       listings

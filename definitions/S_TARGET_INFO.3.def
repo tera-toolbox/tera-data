@@ -1,4 +1,4 @@
-# majorPatchVersion >= 86 && majorPatchVersion < 108
+# majorPatchVersion >= 108
 
 uint64   target
 float    hpPercentage
@@ -10,6 +10,8 @@ int32    edge
 float    edgePercentage
 int32    edgeTimeRemaining # milliseconds
 int32    edgeMin
+uint32   status
+uint32   affectedByCampfire
 
 array    abnormals
 - uint32 id

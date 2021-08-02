@@ -1,6 +1,7 @@
-# majorPatchVersion >= 106 && majorPatchVersion < 108
+# majorPatchVersion >= 108
 
 uint32 templateId
+uint32 serverId
 uint64 gameId
 uint32 playerId
 uint32 actionMode

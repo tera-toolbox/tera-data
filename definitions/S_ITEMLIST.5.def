@@ -19,7 +19,7 @@ array items
 - ref            crystals
 - ref            passivitySets
 - ref            mergedPassivities
-- uint32         unknown # probably patch 108 RandomEquipmentTemplate/Passivity data
+- ref            equipmentStats
 - ref            customString
 
 - int32          id
@@ -69,3 +69,27 @@ array items
 - - array<int32> passivities
 
 - array<int32>   mergedPassivities
+
+- array          equipmentStats
+- - ref          passivityGroups
+- - uint32       id
+- - int32        minAttack
+- - int32        maxAttack
+- - int32        defense
+- - int32        minAttackPhysical
+- - int32        maxAttackPhysical
+- - int32        minAttackMagical
+- - int32        maxAttackMagical
+- - int32        defensePhysical
+- - int32        defenseMagical
+- - int32        unkn1
+- - int32        unkn2
+- - int64        unkn3
+- - int32        unkn4
+- - int32        unkn5
+- - int32        unkn6
+- - array        passivityGroups
+- - - uint32     id
+- - - bool       unkn1
+- - - double     value
+- - - double     probability

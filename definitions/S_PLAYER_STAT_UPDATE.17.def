@@ -1,4 +1,4 @@
-# majorPatchVersion >= 106 && majorPatchVersion < 108
+# majorPatchVersion >= 108
 
 int64  hp
 int32  mp
@@ -92,3 +92,4 @@ uint32 iceEdge # sorc ice "edge" (becomes 4 for some reason)
 uint32 lightningEdge # sorc lightning "edge" (becomes 4 for some reason)
 uint32 adventureCoins
 uint32 adventureCoinsMax
+uint32 affectedByCampfire
