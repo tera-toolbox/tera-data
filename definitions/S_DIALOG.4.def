@@ -1,0 +1,50 @@
+# majorPatchVersion >= 107
+
+uint64      gameId
+uint32      type
+uint32      key1
+uint32      key2
+uint32      questTaskId
+uint32      textId
+uint32      id
+
+object      specialActionButton
+- bool      enabled
+- uint32    type
+
+bool        autoClose
+bool        unspecifiedReward
+bool        additionalReward
+uint32      repeatedQuestExtraMoney
+bool        repeatableQuestTask
+int32       repeatCount
+int32       maxRepeatCount
+bool        additionalRewardEvent
+
+array       buttons
+- uint32    id
+- uint32    index
+- uint32    type
+- int32     dungeonRemainingEntriesDay
+- int32     dungeonMaxEntriesDay
+- int32     dungeonRemainingEntriesWeek
+- int32     dungeonMaxEntriesWeek
+- string    text
+
+array       questRewards
+- uint32    mode
+- uint32    type
+- uint64    exp
+- uint64    money
+- uint32    policyPoints
+- object    faction
+- - uint32  id
+- - uint32  reputation
+- - uint32  tokens
+- uint32    skillAdvancementExp
+- array     items
+- - uint32  id
+- - uint32  amount
+- array     skills
+- - uint32  id
+- - bool    active
