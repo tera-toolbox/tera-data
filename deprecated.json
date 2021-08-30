@@ -1,116 +1,20 @@
 {
-    "S_LOAD_ACHIEVEMENT_LIST": {
-        "1": {
-            "max": 107,
-            "readable": false
-        },
-        "2": {
-            "max": 107,
-            "readable": false
-        }
-    },
-    "C_WHISPER": {
-        "1": {
-            "max": 107,
-            "readable": false
-        }
-    },
-    "S_CHAT": {
-        "3": {
-            "max": 107,
-            "readable": false
-        }
-    },
-    "S_PARTY_MATCH_LINK": {
-        "2": {
-            "max": 107,
-            "readable": false
-        }
-    },
-    "S_WHISPER": {
-        "3": {
-            "max": 107,
-            "readable": false
-        }
-    },
-    "S_REQUEST_CONTRACT": {
-        "1": {
-            "max": 107,
-            "readable": false
-        }
-    },
-    "S_REGISTER_ENCHANT_ITEM": {
-        "4": {
-            "max": 107,
-            "readable": false
-        }
-    },
-    "C_APPLY_PARTY": {
-        "1": {
-            "max": 107,
-            "readable": false
-        }
-    },
-    "C_REQUEST_PARTY_INFO": {
-        "2": {
-            "max": 107,
-            "readable": false
-        }
-    },
-    "S_PARTY_MEMBER_STAT_UPDATE": {
-        "3": {
-            "max": 107,
+	"S_ITEMLIST": {
+        "5": {
+            "max": 108,
             "readable": true
         }
     },
-    "S_USER_PAPERDOLL_INFO": {
-        "13": {
-            "max": 107,
-            "readable": false
-        }
-    },
-    "S_PLAYER_STAT_UPDATE": {
+	"S_SHOW_ITEM_TOOLTIP": {
         "16": {
-            "max": 107,
+            "max": 108,
             "readable": true
         }
     },
-    "S_USER_STATUS": {
-        "3": {
-            "max": 107,
+	"S_USER_PAPERDOLL_INFO": {
+        "14": {
+            "max": 108,
             "readable": true
-        }
-    },
-    "S_TARGET_INFO": {
-        "2": {
-            "max": 107,
-            "readable": true
-        }
-    },
-    "S_SHOW_PARTY_MATCH_INFO": {
-        "1": {
-            "max": 107,
-            "readable": false
-        }
-    },
-    "S_PARTY_MEMBER_INFO": {
-        "1": {
-            "max": 107,
-            "readable": false
-        },
-        "2": {
-            "max": 107,
-            "readable": false
-        },
-        "3": {
-            "max": 107,
-            "readable": false
-        }
-    },
-    "S_GACHA_END": {
-        "3": {
-            "max": 107,
-            "readable": false
         }
     }
 }

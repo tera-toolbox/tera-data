@@ -1,0 +1,11 @@
+# majorPatchVersion >= 108
+
+bool raid
+uint32 playerId
+uint32 serverId
+uint16 class
+uint16 race
+uint16 gender
+uint16 level
+bool   isWorldEventTarget   # see S_SPAWN_USER  
+string name

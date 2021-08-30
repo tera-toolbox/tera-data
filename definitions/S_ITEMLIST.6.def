@@ -1,4 +1,4 @@
-# majorPatchVersion >= 107 && majorPatchVersion < 109
+# majorPatchVersion >= 109
 
 ref              items
 
@@ -55,6 +55,7 @@ array items
 - bool           pcbang
 - int64          xp
 - bool           damaged # damaged due to enchant/upgrade failure, needs to be repaired.
+- uint32         dungeonResonanceEtching
 - int64          availableUntil # unix timestamp
 - string         customString
 - array<int32>   crystals

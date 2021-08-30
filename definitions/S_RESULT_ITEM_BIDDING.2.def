@@ -1,0 +1,4 @@
+# majorPatchVersion >= 108
+
+uint32 winnerServerId
+uint32 winnerPlayerId

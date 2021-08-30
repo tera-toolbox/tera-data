@@ -1,0 +1,8 @@
+# majorPatchVersion >= 108
+
+uint32  serverId
+uint32  type
+uint32  id
+uint32  arbiterId
+string  senderName
+bytes   data

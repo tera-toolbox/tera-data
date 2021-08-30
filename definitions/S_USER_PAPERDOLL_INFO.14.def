@@ -1,4 +1,4 @@
-# majorPatchVersion >= 108
+# majorPatchVersion == 108
 
 uint32 templateId
 uint32 serverId

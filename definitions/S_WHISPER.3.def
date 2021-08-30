@@ -1,9 +1,0 @@
-# majorPatchVersion < 108
-
-uint64 gameId
-bool   isWorldEventTarget   # see S_SPAWN_USER
-bool   gm
-bool   founder              # CBT User. Early access set.
-string name
-string recipient
-string message

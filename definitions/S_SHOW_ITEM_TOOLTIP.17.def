@@ -1,4 +1,4 @@
-# majorPatchVersion >= 107 && majorPatchVersion < 109
+# majorPatchVersion >= 109
 
 ref crystals
 ref passivitySets
@@ -65,6 +65,7 @@ int32  liberationStatus           # See S_INVEN
 int32  boundToItem
 bool   pcbang
 bool   damaged
+uint32 dungeonResonanceEtching
 string soulboundName
 
 array<int32> crystals
