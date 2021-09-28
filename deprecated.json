@@ -1,19 +1,19 @@
 {
-	"S_ITEMLIST": {
-        "5": {
-            "max": 108,
-            "readable": true
-        }
-    },
-	"S_SHOW_ITEM_TOOLTIP": {
-        "16": {
-            "max": 108,
-            "readable": true
-        }
-    },
-	"S_USER_PAPERDOLL_INFO": {
+    "S_EACH_SKILL_RESULT": {
         "14": {
-            "max": 108,
+            "max": 109,
+            "readable": false
+        }
+    },
+    "S_SKILL_CATEGORY": {
+        "3": {
+            "max": 109,
+            "readable": true
+        }
+    },
+    "S_DIALOG": {
+        "4": {
+            "max": 109,
             "readable": true
         }
     }

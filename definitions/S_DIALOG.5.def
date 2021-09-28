@@ -1,4 +1,4 @@
-# majorPatchVersion >= 107 && majorPatchVersion < 110
+# majorPatchVersion >= 110
 
 uint64      gameId
 uint32      type
@@ -29,6 +29,7 @@ array       buttons
 - int32     dungeonMaxEntriesDay
 - int32     dungeonRemainingEntriesWeek
 - int32     dungeonMaxEntriesWeek
+- int32     unkn
 - string    text
 
 array       questRewards

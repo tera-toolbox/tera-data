@@ -1,10 +1,11 @@
-# majorPatchVersion >= 86 && majorPatchVersion < 110
+# majorPatchVersion >= 110
 
 uint64  source
 uint64  owner      # If non-zero, then source is a projectile and this is its owner
 uint64  target
 int32   templateId
 skillid skill
+skillid originSkill
 int32   targeting  # index in TargetingList (NOT id) - See DataCenter.SkillData
 int32   area       # index in AreaList
 uint32  id
