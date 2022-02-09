@@ -1,4 +1,4 @@
-# majorPatchVersion < 114
+# majorPatchVersion >= 114
 
 uint64 target # can be yourself or an npc
 uint32 runemarksRemoved
@@ -12,3 +12,6 @@ uint32 type
 
 # if type = 2 or type = 3 due to target dying, this is zero
 uint32 skill
+
+uint64 unkn1
+uint64 unkn2

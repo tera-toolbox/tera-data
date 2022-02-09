@@ -1,19 +1,37 @@
 {
-    "S_EACH_SKILL_RESULT": {
-        "14": {
-            "max": 109,
-            "readable": false
-        }
-    },
-    "S_SKILL_CATEGORY": {
-        "3": {
-            "max": 109,
+	"S_ITEMLIST": {
+        "6": {
+            "max": 113,
             "readable": true
         }
     },
-    "S_DIALOG": {
+	"S_SHOW_ITEM_TOOLTIP": {
+        "17": {
+            "max": 113,
+            "readable": true
+        }
+    },
+	"S_LOGIN": {
+        "14": {
+            "max": 113,
+            "readable": true
+        }
+    },
+	"S_WEAK_POINT": {
+        "1": {
+            "max": 113,
+            "readable": true
+        }
+    },
+	"S_START_COOLTIME_SKILL": {
+        "3": {
+            "max": 113,
+            "readable": true
+        }
+    },
+	"C_PRESS_SKILL": {
         "4": {
-            "max": 109,
+            "max": 113,
             "readable": true
         }
     }

@@ -1,4 +1,4 @@
-# majorPatchVersion >= 86 && majorPatchVersion < 114
+# majorPatchVersion >= 114
 
 ref       servants
 ref       name
@@ -74,6 +74,7 @@ int64     titleCount
 int32     appearance2 # unknown, but client ignores shape if this is invalid
 float     scale
 int32     guildLogoId
+uint32    classChangeLevel
 string    name
 bytes     details
 bytes     shape

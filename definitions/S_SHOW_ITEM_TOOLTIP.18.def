@@ -1,4 +1,4 @@
-# majorPatchVersion >= 109 && majorPatchVersion < 114
+# majorPatchVersion >= 114
 
 ref crystals
 ref passivitySets
@@ -66,6 +66,7 @@ int32  boundToItem
 bool   pcbang
 bool   damaged
 uint32 dungeonResonanceEtching
+bool   fromMonthlyPassStyleShop
 string soulboundName
 
 array<int32> crystals

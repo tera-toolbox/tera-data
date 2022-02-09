@@ -1,4 +1,4 @@
-# majorPatchVersion >= 74
+# majorPatchVersion >= 74 && majorPatchVersion < 114
 
 skillid skill
 bool    press

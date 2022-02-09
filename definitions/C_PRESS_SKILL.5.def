@@ -1,0 +1,9 @@
+# majorPatchVersion >= 114
+
+skillid skill
+bool    press
+vec3    loc
+angle   w
+vec3    unkn1
+bool    unkn2
+bool    unkn3
