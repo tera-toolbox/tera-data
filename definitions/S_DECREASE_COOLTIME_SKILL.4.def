@@ -1,0 +1,6 @@
+# majorPatchVersion >= 114
+
+skillid skill
+uint32  cooldown
+uint32  usedStacks
+int32   nextStackCooldown

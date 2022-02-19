@@ -1,4 +1,4 @@
-# majorPatchVersion >= 109 && majorPatchVersion < 114
+# majorPatchVersion >= 114
 
 uint32 templateId
 uint32 serverId
@@ -124,6 +124,7 @@ array items # see S_ITEMLIST
 - int32  passivitySet
 - int32  extraPassivitySets
 - uint32 dungeonResonanceEtching
+- bool   fromMonthlyPassStyleShop
 - int64  xp
 - array  passivitySets
 - - uint32 index

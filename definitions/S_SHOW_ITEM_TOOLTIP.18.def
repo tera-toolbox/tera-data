@@ -135,6 +135,8 @@ array statComparisonCurrentEquippedEtchings
 - int64 etchingSecRemaining4
 - int64 etchingSecRemaining5
 - int64 etchingSecRemaining6
+- int64 etchingSecRemaining7
+- int64 etchingSecRemaining8
 
 array<int32> mergedPassivities
 
