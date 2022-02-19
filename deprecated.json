@@ -1,35 +1,47 @@
 {
-	"S_ITEMLIST": {
+    "S_ITEMLIST": {
         "6": {
             "max": 113,
             "readable": true
         }
     },
-	"S_SHOW_ITEM_TOOLTIP": {
+    "S_SHOW_ITEM_TOOLTIP": {
         "17": {
             "max": 113,
             "readable": true
         }
     },
-	"S_LOGIN": {
+    "S_LOGIN": {
         "14": {
             "max": 113,
             "readable": true
         }
     },
-	"S_WEAK_POINT": {
+    "S_WEAK_POINT": {
         "1": {
             "max": 113,
             "readable": true
         }
     },
-	"S_START_COOLTIME_SKILL": {
+    "S_START_COOLTIME_SKILL": {
         "3": {
             "max": 113,
             "readable": true
         }
     },
-	"C_PRESS_SKILL": {
+    "S_DECREASE_COOLTIME_SKILL": {
+        "3": {
+            "max": 113,
+            "readable": true
+        }
+    },
+    "S_USER_PAPERDOLL_INFO": {
+        "15": {
+            "max": 113,
+            "readable": true
+        }
+    },
+    "C_PRESS_SKILL": {
         "4": {
             "max": 113,
             "readable": true
