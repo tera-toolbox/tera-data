@@ -1,0 +1,8 @@
+ref name
+ref data
+
+int32  type
+uint64 gameId
+int32  button
+string name
+bytes data
