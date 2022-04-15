@@ -5,6 +5,12 @@
             "readable": true
         }
     },
+    "S_INSTANT_PULL": {
+        "1": {
+            "max": 110,
+            "readable": false
+        }
+    },
     "S_SHOW_ITEM_TOOLTIP": {
         "17": {
             "max": 113,

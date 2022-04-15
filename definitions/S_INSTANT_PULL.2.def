@@ -1,0 +1,7 @@
+int64 source
+int64 target
+skillid skill
+vec3 loc
+angle w
+bool success
+bool unk
